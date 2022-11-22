@@ -3,6 +3,11 @@ Rasmi Elasmar
 
 ## Introduction
 * Introducing concept of administrative burden, digital public infrastructure, why these are fundamental to how government serves communities and in the general interest.
+* Background:
+	* Administrative burden
+	* Public benefits & services
+	* Digital public infrastructure
+* Public benefits delivery is a high-leverage, high-impact area for improvement of community living standards. It can also be taken as a key litmus test of government’s ability to create or leverage technology to fulfill its mission.
 
 ## Technology and administrative burdens
 * Burdens as a tradeoff of time, labor, money, etc. shouldered either by government or by residents (or third parties). 
@@ -20,9 +25,12 @@ Rasmi Elasmar
 ## Audit of NYC benefits and services
 * A birds-eye view of e.g. HRA, housing, other core benefits and services systems. What is the life cycle of resident's data across programs? What are the processes and technologies involved at each step?
 	* See: Local Law 60 Report, Local Law 75 Report
+		* Should have been updated yearly since, but no clear updates online.
 
 ## Challenges
 Why hasn't this been done? What are the technical, operational, organizational, and other challenges associated with creating such infrastructure?
+
+By categorizing these challenges, we can consider which approaches may or may not be effective in addressing them.
 
 ### Operational challenges
 * Challenges related to how programs are designed, implemented, and administered (and the role technology plays in each phase). Determined primarily by policy and administrative decisionmaking in the broader context of each organization/program.
@@ -43,6 +51,59 @@ Why hasn't this been done? What are the technical, operational, organizational, 
 * Essential facets of managing resident data that may be at odds with other goals (e.g. cross-agency data sharing)
 * Data sharing, ownership, consent, management, auditing, protection from unwanted access/abuse.
 
+### Key challenges
+* Sources of burden for residents: Learning costs, psychological costs, compliance costs, e.g.:
+	* People may not know what they are eligible for.
+	* Documents and requirements vary by program.
+	* Even if you are enrolled, you need to renew.
+* Programs are administered at different levels of government (e.g. city vs. county vs. state vs. federal), and even by different organizations within the same jurisdiction. As a result, it is challenging to coordinate processes, program requirements, and information sharing across jurisdictions (or even different programs/organizations within the same jurisdiction).
+	* The program requirements, processes, tools, technologies, etc. all may differ by program or organization.
+	* Informational definitions may be different even for similar-seeming questions (e.g. income) across programs.
+	* Enrollment in one benefit may affect or be contingent on enrollment for others.
+
+### Existing approaches and ideas
+* Benefits linkage
+	* Fully or partially enrolling someone based on their enrollment in (or eligiblity for) other programs.
+	* Solves:
+		* Learning costs of discovering other programs and understanding requirements.
+		* Compliance costs of applying to another program.
+	* Does not solve:
+		* Compliance cost of original program.
+		* Marginal learning/compliance cost of linkage.
+		* Learning and compliance costs associated with potential negative interactions across programs.
+		* Political / process change required to enact linkage.
+* Proactive outreach
+	* Using data from one or more programs to target individuals with information about other programs or renewal.
+	* Solves:
+		* Learning costs of discovering programs, understanding eligibility.
+	* Does not solve:
+		* Compliance costs of completing applications.
+* Integrated benefits
+	* Combining multiple benefits applications into a single unified application.
+	* Solves:
+		* Lessens learning costs, compliance costs through consolidation.
+		* Learning costs associated with discovery and eligibility determination across programs.
+	* Does not solve:
+		* Complexity and associated learning and compliance costs of unified application.
+* Information re-use
+	* Re-using information from one program in applications for another.
+	* Solves:
+		* Compliance costs of re-entering information
+		* Legal/process requirements around data sharing (depending on architecture of data sharing)
+	* Does not solve:
+		* Differing definitions for similar requirements across programs.
+		* Compliance cost of any one program.
+		* Learning and compliance costs associated with potential negative interactions across programs.
+		* Government administrative/process burden for any one program.
+* Rules as code
+	* Solves:
+		* Compliance costs of eligibility determination, approval, renewal.
+		* Possible learning costs of discovery and elgibility determination (by enabling proactive outreach).
+	* Does not solve:
+		* Political challenge of unifying requirements and definitions across programs.
+		* Compliance costs / complexity of a given program.
+
+
 ## Opportunities
 ### Resident-centered services
 * What changes can be made to more holistically provide benefits and services to residents, to design the experience primarily from the perspective of the resident rather than individual programs and departments?
@@ -55,13 +116,20 @@ Why hasn't this been done? What are the technical, operational, organizational, 
 	* Proactive cross-enrollment
 	* Partial eligibility determination to inform applicants of potential eligibility (and what other conditions / information may be necessary)
 	* Pre-assessing likely procedural denials
-	* Holistic assessment of needs rather than program-by-program.
+	* Holistic intake and assessment of needs rather than program-by-program.
 
 #### Models for shared data
-* Centrally managed by a single agency
+* Centrally managed by a single agency, accessible by many as needed
+	* e.g. shared "folder" of files that can be used across programs.
+		* [Nava PBC with State of Vermont](https://www.navapbc.com/case-studies/integrating-eligibility-enrollment-software)
+		* [My File NYC](https://www.nyc.gov/site/opportunity/portfolio/my-file-nyc.page)
 * Distributed across agencies, conforming to a standard, unified as-needed
+	* Mechanisms for affirmative consent from resident to share specific data for a given use.
+	* Mechanisms for government oversight to ensure no misuse.
 * Individuals as data-holders (or unifiers/conduits, pulling and sharing data as needed)
 	* Zero-knowledge verification
+* Unified data schema
+	* Enables rules-as-code, proactive outreach, unified applications, information re-use.
 
 ### Strategies for shifting burdens
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
@@ -81,4 +149,14 @@ Summary/taxonomy of ways that burdens can be shifted, especially things that can
 ## Beyond administrative burden
 Even if we leverage technical tools to make the improvements described above, the biggest determinant of social outcomes is policy and implementation.
 
+### Towards a universal safety net
+*  Burden is on government to identify and reach potentially eligible residents. Likely eligibility determined via rules-as-code, leading to proactive outreach and enrollment.
+* Universal benefits linkage: Any one condition triggers eligibility for all other programs if desired (or, no means-testing, e.g. universal school food programs, universal healthcare).
+* Application and approval completed via zero-knowledge proof(?).
+* Enrollment and renewal happen as desired by resident, burden is on government to disprove need (possibly retroactively, with no consequences for resident).
+
 ### Limitations of technology
+See:
+* [Leverage Points: Places to Intervene in a System](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)
+* Reformist reforms vs. non-reformist reforms
+* Roles for Computing in Social Change
