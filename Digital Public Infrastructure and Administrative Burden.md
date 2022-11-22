@@ -7,7 +7,7 @@ Rasmi Elasmar
 	* Administrative burden
 	* Public benefits & services
 	* Digital public infrastructure
-* Public benefits delivery is a high-leverage, high-impact area for improvement of community living standards. It can also be taken as a key litmus test of government’s ability to create or leverage technology to fulfill its mission.
+* Public benefits delivery is a high-leverage, high-impact area for improvement of community living standards. It can also be taken as a key litmus test of government’s ability to create or leverage technology to fulfill its core functions.
 
 ## Technology and administrative burdens
 * Burdens as a tradeoff of time, labor, money, etc. shouldered either by government or by residents (or third parties). 
@@ -63,7 +63,8 @@ By categorizing these challenges, we can consider which approaches may or may no
 
 ### Existing approaches and ideas
 * Benefits linkage
-	* Fully or partially enrolling someone based on their enrollment in (or eligiblity for) other programs.
+	* Fully or partially enrolling someone based on their enrollment in (or eligibility for) other programs.
+		* Examples: SNAP/Medicaid
 	* Solves:
 		* Learning costs of discovering other programs and understanding requirements.
 		* Compliance costs of applying to another program.
@@ -71,22 +72,33 @@ By categorizing these challenges, we can consider which approaches may or may no
 		* Compliance cost of original program.
 		* Marginal learning/compliance cost of linkage.
 		* Learning and compliance costs associated with potential negative interactions across programs.
-		* Political / process change required to enact linkage.
+	* Requires:
+		* Political / process change to require benefits linkage.
+		* Technical capacity to share status/eligibility information across programs.
 * Proactive outreach
 	* Using data from one or more programs to target individuals with information about other programs or renewal.
+		* Examples: Benefits Data Trust, GetCalFresh
 	* Solves:
 		* Learning costs of discovering programs, understanding eligibility.
 	* Does not solve:
 		* Compliance costs of completing applications.
+	* Requires:
+		* Data sharing across programs
+		* Standardized defintions of application data (but not requirements) across programs.
+		* SMS / email / data analysis infrastructure
 * Integrated benefits
 	* Combining multiple benefits applications into a single unified application.
+		* Examples: CfA MNBenefits.mn.gov, Civilla Re:Form
 	* Solves:
 		* Lessens learning costs, compliance costs through consolidation.
 		* Learning costs associated with discovery and eligibility determination across programs.
 	* Does not solve:
 		* Complexity and associated learning and compliance costs of unified application.
+	* Requires:
+		* Technical and operational capacity to standardize forms
 * Information re-use
 	* Re-using information from one program in applications for another.
+		* Examples: [Nava PBC with State of Vermont](https://www.navapbc.com/case-studies/integrating-eligibility-enrollment-software),  [My File NYC](https://www.nyc.gov/site/opportunity/portfolio/my-file-nyc.page), CiviForm.us (disclaimer: I worked on this)
 	* Solves:
 		* Compliance costs of re-entering information
 		* Legal/process requirements around data sharing (depending on architecture of data sharing)
@@ -95,14 +107,22 @@ By categorizing these challenges, we can consider which approaches may or may no
 		* Compliance cost of any one program.
 		* Learning and compliance costs associated with potential negative interactions across programs.
 		* Government administrative/process burden for any one program.
+	* Requires:
+		* Unified definitions for requirements across programs.
+		* Technical capacity to share information.
+		* Legal/policy frameworks to share information (depending on implementation)
 * Rules as code
+	* Defining and determining eligibility and approval of benefits via programmatic rules that can be processed automatically.
+		* Examples: AccessNYC, 18F Eligibility APIs
 	* Solves:
 		* Compliance costs of eligibility determination, approval, renewal.
 		* Possible learning costs of discovery and elgibility determination (by enabling proactive outreach).
 	* Does not solve:
 		* Political challenge of unifying requirements and definitions across programs.
 		* Compliance costs / complexity of a given program.
-
+		* Complexities of individual cases (still need appeals, human processes, etc.)
+	* Requires:
+		* 
 
 ## Opportunities
 ### Resident-centered services
