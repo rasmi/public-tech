@@ -1,0 +1,93 @@
+# A re-creation of Mollie Ruskin's Applicant Journey Map from the 2016 USDS report, 
+# "Mapping the applicant experience of benefit enrollment"
+# See: https://github.com/usds/benefits-enrollment-prototype
+# PDF: https://github.com/usds/benefits-enrollment-prototype/raw/master/assets/discovery-findings-mapping-enrollment-Nov2016.pdf
+
+Trigger: {
+    shape: circle
+}
+
+look_for_info: Look to friends/family for advice/info
+
+figure_out_eligible: Figure out what I'm eligible for
+
+identify_programs: Identify programs to apply for
+
+gather_docs: Gather docs
+
+fill_application_self: Fill out paper or online application
+fill_application_cbo: Visit/call CBO and they'll fill out app for me
+fill_application_gov: Visit/call a govt office and they'll fill out app for me
+
+submit_app: Submit app
+
+receive_notice: Receive a notice
+problem_no_notice: Problem: I didn't receive a notice or haven't heard anything
+
+# Placeholder node for linking next step arrows.
+next_steps
+
+more_evidence: More evidence requested
+additional_documents: Provide additional documents
+
+interview_scheduled: Scheduled for an interview
+interview_participate: Participate in interview
+
+# Placeholder node for linking decision arrows.
+await_decision
+
+Approved
+Denied
+problem_no_decision: Problem: I never heard if I was approved or denied
+
+drop_out: Drop out
+drop_out_stop: Stops pursuing benefits
+
+Troubleshoot
+troubleshot_gov: Contact govt directly
+troubleshoot_cbo: Seek support from a CBO
+
+use_benefits: Use benefits
+
+receive_notice_renew: Receive a notice
+problem_no_notice_renew: Problem: I didn't receive a notice or was otherwise cut off
+
+# Placeholder node for linking problem arrows.
+problem_result
+
+Trigger -> look_for_info
+Trigger -> figure_out_eligible
+Trigger -> identify_programs
+
+look_for_info -> figure_out_eligible
+figure_out_eligible -> identify_programs
+figure_out_eligible -> await_decision: Instant verification
+
+identify_programs -> gather_docs
+
+gather_docs -> fill_application_self -> submit_app
+gather_docs -> fill_application_cbo -> submit_app
+gather_docs -> fill_application_gov -> submit_app
+
+
+submit_app -> receive_notice -- next_steps
+submit_app -> problem_no_notice -- problem_result
+
+next_steps -> more_evidence -> additional_documents -- await_decision
+next_steps -> interview_scheduled -> interview_participate -- await_decision
+
+await_decision -> Approved
+await_decision -> Denied
+await_decision -> problem_no_decision -- problem_result
+
+Approved -> use_benefits
+use_benefits -> receive_notice_renew -> next_steps
+use_benefits -> problem_no_notice_renew -- problem_result
+
+problem_result -- Troubleshoot
+problem_result -- drop_out
+
+Troubleshoot -> troubleshot_gov
+Troubleshoot -> troubleshoot_cbo
+
+drop_out -> drop_out_stop
