@@ -62,6 +62,22 @@ By categorizing these challenges, we can consider which approaches may or may no
 	* Enrollment in one benefit may affect or be contingent on enrollment for others.
 
 ### Existing approaches and ideas
+For each approach, outline:
+* Approach name
+	* A brief definition
+		* Examples in theory or practice
+	* What issues it solves (in terms of administrative burden)
+	* What issues it does not solve
+	* What is required to implement this approach
+
+Other factors to explore:
+* Expected outcomes on burdens etc. when implementing approach (e.g. increase, deacrease, eliminate, approximate magnitude).
+* How to measure such outcomes (do datasets or proxies exist?)
+* Timeline of implementation/effect
+* Role relative to broader process/system
+* Type of reform (e.g. reformist vs. non-reformist)
+
+
 * Benefits linkage
 	* Fully or partially enrolling someone based on their enrollment in (or eligibility for) other programs.
 		* Examples: SNAP/Medicaid
