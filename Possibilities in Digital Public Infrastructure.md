@@ -40,6 +40,7 @@
 #### Communication
 #### Security
 #### Identity
+#### Interoperability and standards
 #### Other tools
 
 ### Operational capacity
