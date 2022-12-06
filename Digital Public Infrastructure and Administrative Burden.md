@@ -27,6 +27,26 @@ Rasmi Elasmar
 	* See: Local Law 60 Report, Local Law 75 Report
 		* Should have been updated yearly since, but no clear updates online.
 
+### Assessment
+For each service, understand:
+* Administering jurisdiction.
+* Administering agency.
+* Key resident-facing entrypoints.
+* High-level journey/process.
+* Underlying data systems
+	* In-house vs. 3rd party
+		* If 3P, what software?
+		* If in-house, who develops/maintains?
+	* API, data export, interoperability, etc. functionality of data systems.
+	* Existing or planned integrations with other data systems.
+* Program data
+	* What is required for eligibility determination?
+	* What is required to apply?
+	* Attempt at a detailed schema/definitions.
+	* Proposed simplified schema/definitions.
+* Legal framework(s) for privacy/data sharing.
+
+
 ## Challenges
 Why hasn't this been done? What are the technical, operational, organizational, and other challenges associated with creating such infrastructure?
 
@@ -76,6 +96,7 @@ Other factors to explore:
 * Timeline of implementation/effect
 * Role relative to broader process/system
 * Type of reform (e.g. reformist vs. non-reformist)
+	* Is it reflecting good/simple policy, or obscuring bad/complex policy?
 
 
 * Benefits linkage
@@ -150,7 +171,9 @@ Other factors to explore:
 	* Data standardization and sharing across agencies rather than requiring individuals to submit information.
 	* Proactive outreach via text and other channels
 	* Proactive cross-enrollment
-	* Partial eligibility determination to inform applicants of potential eligibility (and what other conditions / information may be necessary)
+	* Partial eligibility determination to inform applicants of potential eligibility (and what other conditions / information may be necessary).
+	* Assess elibility for other programs when applying to any one program. Collecting data for these additional programs if eligibility is determined.
+	* Automatically extracting information from submitted documents, leave burden of verification on programs.
 	* Pre-assessing likely procedural denials
 	* Holistic intake and assessment of needs rather than program-by-program.
 
@@ -166,6 +189,7 @@ Other factors to explore:
 	* Zero-knowledge verification
 * Unified data schema
 	* Enables rules-as-code, proactive outreach, unified applications, information re-use.
+	* Tools that can map information from specific documents (e.g. tax returns) to standard schema for each program.
 
 ### Strategies for shifting burdens
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
