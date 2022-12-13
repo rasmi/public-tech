@@ -174,6 +174,7 @@ Other factors to explore:
 	* Partial eligibility determination to inform applicants of potential eligibility (and what other conditions / information may be necessary).
 	* Assess elibility for other programs when applying to any one program. Collecting data for these additional programs if eligibility is determined.
 	* Automatically extracting information from submitted documents, leave burden of verification on programs.
+		* Applicants can't be held responsible for errors made by such tools.
 	* Pre-assessing likely procedural denials
 	* Holistic intake and assessment of needs rather than program-by-program.
 
@@ -193,6 +194,70 @@ Other factors to explore:
 
 ### Strategies for shifting burdens
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
+
+Actors & actions:
+* Resident
+	* Identify available resources
+	* Understand eligibility
+	* Understand application requirements
+	* Submit application(s)
+	* Receive benefits
+	* Understand renewal process
+	* Submit renewal information
+* CBO
+	* Determine relevant resources
+	* Determine possible eligiblity for various resources
+	* Support completion of application(s)
+	* Support renewal
+* Program staff
+	* Determine relevant resources
+	* Determine possible eligiblity for various resources
+	* Receive applications
+	* Process applications
+	* Follow up for additional information
+	* Conduct interview
+	* Make final determinations
+	* Approve/Deny and notify
+	* Disburse benefits
+* Program administrator
+	* Enforce eligibility requirements
+* Policymaker
+	* Decide eligibility requirements
+	* Decide legal/privacy requirements
+	* Decide operational requirements
+	* Decide desired outcomes / evaluation criteria
+	* Decide resources/funding/investments
+* Technical system
+	* Present information
+	* Store documents
+	* Store resident information
+	* Notify
+	* Automate process
+	* Rules-based eligibility determination
+	* Simulate outcomes of policy change
+
+Intervention:
+* Simplify process
+* Automate process
+* Introduce process
+* Remove process
+* Shift process
+
+Outcome:
+* Increase/Decrease access
+* Increase/Decrease labor
+* Increase/Decrease time
+* Increase/Decrease costs
+
+#### Technical levers
+##### Automate processes
+##### Share application information
+##### Enable eligibility determination
+
+#### Scenarios
+1. No policy/operation change, build tech to minimize burdens at each step.
+2. No policy change, enable operation + technical change.
+3. Policy + operation + technical change.
 
 ### Long-term development
 #### Building blocks of digital public infrastructure
