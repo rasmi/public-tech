@@ -3,7 +3,9 @@ import 'reactflow/dist/style.css';
 
 function ProcessMap() {
   return (
-      <ReactFlow>
+      <ReactFlow
+        proOptions={{ hideAttribution: true }}
+      >
         <Background />
         <Controls />
       </ReactFlow>
