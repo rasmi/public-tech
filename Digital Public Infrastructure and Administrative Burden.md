@@ -146,6 +146,7 @@ Other factors to explore:
 		* Government administrative/process burden for any one program.
 	* Requires:
 		* Unified definitions for requirements across programs.
+			* Or, a way to map information from one program to another.
 		* Technical capacity to share information.
 		* Legal/policy frameworks to share information (depending on implementation)
 * Rules as code
@@ -159,7 +160,9 @@ Other factors to explore:
 		* Compliance costs / complexity of a given program.
 		* Complexities of individual cases (still need appeals, human processes, etc.)
 	* Requires:
-		* 
+		* Policy changes to fund and require such functionality.
+		* Technical and operational capacity to represent law programmatically.
+
 
 ## Opportunities
 ### Resident-centered services
@@ -221,6 +224,7 @@ Actors & actions:
 	* Disburse benefits
 * Program administrator
 	* Enforce eligibility requirements
+	* Decide processes within limits of requirements.
 * Policymaker
 	* Decide eligibility requirements
 	* Decide legal/privacy requirements
@@ -256,8 +260,11 @@ Outcome:
 
 #### Scenarios
 1. No policy/operation change, build tech to minimize burdens at each step.
-2. No policy change, enable operation + technical change.
+	* Covering up / abstracting away an inherently broken and messy set of tools and processes with technology.
+2. No policy change, enable operational + technical change.
+	* Can minimize process burdens, facilitate with technology.
 3. Policy + operation + technical change.
+	* Can simplify + unify program requirements, minimize process burdens, facilitate with technology.
 
 ### Long-term development
 #### Building blocks of digital public infrastructure
