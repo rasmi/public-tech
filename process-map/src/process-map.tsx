@@ -8,34 +8,11 @@ import ReactFlow, {
   useEdgesState,
   addEdge,
   Connection,
-  Position,
 } from "reactflow";
 import "reactflow/dist/style.css";
 
-const initialNodes: Node[] = [
-  {
-    id: "understand_resources",
-    type: "input",
-    sourcePosition: Position.Right,
-    data: { label: "Understand which resources are available to me." },
-    position: { x: 0, y: 0 },
-  },
-  {
-    id: "understand_eligibility",
-    targetPosition: Position.Left,
-    data: { label: "Understand which resources I am eligible for." },
-    position: { x: 200, y: 0 },
-  },
-];
-
-const initialEdges: Edge[] = [
-  {
-    id: "understand_resources->understand_eligibility",
-    source: "understand_resources",
-    type: "smoothstep",
-    target: "understand_eligibility",
-  },
-];
+import initialNodes from "./nodes";
+import initialEdges from "./edges";
 
 function ProcessMap() {
   const [nodes, setNodes, onNodesChange] = useNodesState<Node[]>(initialNodes);
