@@ -1,6 +1,6 @@
 import { Edge } from "reactflow";
 
-const initialEdges: Edge[] = [
+const applicantEdges: Edge[] = [
   {
     id: "understand_resources->understand_eligibility",
     source: "understand_resources",
@@ -123,6 +123,83 @@ const initialEdges: Edge[] = [
     type: "smoothstep",
     target: "provide_additional_info",
   },
+];
+
+const administratorEdges: Edge[] = [
+  {
+    id: "receive_application->verify_application_complete",
+    source: "receive_application",
+    type: "smoothstep",
+    target: "verify_application_complete",
+  },
+  {
+    id: "verify_application_complete->request_additional_info",
+    source: "verify_application_complete",
+    type: "smoothstep",
+    target: "request_additional_info",
+    label: "Incomplete",
+  },
+  {
+    id: "request_additional_info->verify_application_complete",
+    source: "request_additional_info",
+    type: "smoothstep",
+    target: "verify_application_complete",
+    label: "Complete",
+  },
+  {
+    id: "verify_application_complete->make_determination",
+    source: "verify_application_complete",
+    type: "smoothstep",
+    target: "make_determination",
+  },
+  {
+    id: "make_determination->disburse_benefits",
+    source: "make_determination",
+    type: "smoothstep",
+    target: "disburse_benefits",
+  },
+];
+
+const interactionEdges: Edge[] = [
+  {
+    id: "submit_application->receive_application",
+    source: "submit_application",
+    type: "smoothstep",
+    target: "receive_application",
+  },
+  {
+    id: "request_additional_info->provide_additional_info",
+    source: "request_additional_info",
+    type: "smoothstep",
+    target: "provide_additional_info",
+  },
+  {
+    id: "provide_additional_info->verify_application_complete",
+    source: "provide_additional_info",
+    type: "smoothstep",
+    target: "verify_application_complete",
+  },
+  {
+    id: "make_determination->receive_determination",
+    source: "make_determination",
+    type: "smoothstep",
+    target: "receive_determination",
+  },
+  {
+    id: "disburse_benefits->receive_benefits",
+    source: "disburse_benefits",
+    type: "smoothstep",
+    target: "receive_benefits",
+  },
+];
+
+const techEdges: Edge[] = [];
+
+const initialEdges: Edge[] = [
+  ...applicantEdges,
+  ...administratorEdges,
+  ...interactionEdges,
+  ...techEdges,
 ];
 
 export default initialEdges;

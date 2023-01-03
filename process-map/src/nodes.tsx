@@ -1,6 +1,6 @@
 import { Node, Position } from "reactflow";
 
-const initialNodes: Node[] = [
+const applicantNodes: Node[] = [
   {
     id: "understand_resources",
     type: "input",
@@ -99,6 +99,52 @@ const initialNodes: Node[] = [
     data: { label: "Receive renewal notice." },
     position: { x: 1700, y: -100 },
   },
+];
+
+const administratorNodes: Node[] = [
+  {
+    id: "receive_application",
+    targetPosition: Position.Left,
+    sourcePosition: Position.Right,
+    data: { label: "Receive application" },
+    position: { x: 1000, y: 400 },
+  },
+  {
+    id: "verify_application_complete",
+    targetPosition: Position.Left,
+    sourcePosition: Position.Right,
+    data: { label: "Verify the application is complete." },
+    position: { x: 1200, y: 400 },
+  },
+  {
+    id: "request_additional_info",
+    targetPosition: Position.Left,
+    sourcePosition: Position.Right,
+    data: { label: "Request additional information." },
+    position: { x: 1200, y: 300 },
+  },
+  {
+    id: "make_determination",
+    targetPosition: Position.Left,
+    sourcePosition: Position.Right,
+    data: { label: "Make a final determination." },
+    position: { x: 1400, y: 400 },
+  },
+  {
+    id: "disburse_benefits",
+    targetPosition: Position.Left,
+    sourcePosition: Position.Right,
+    data: { label: "Disburse benefit." },
+    position: { x: 1600, y: 400 },
+  },
+];
+
+const techNodes: Node[] = [];
+
+const initialNodes: Node[] = [
+  ...applicantNodes,
+  ...administratorNodes,
+  ...techNodes,
 ];
 
 export default initialNodes;
