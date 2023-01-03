@@ -29,9 +29,9 @@ Rasmi Elasmar
 
 ### Assessment
 For each service, understand:
-* Administering jurisdiction.
-* Administering agency.
-* Key resident-facing entrypoints.
+* Administering jurisdiction. (federal, state, county, city)
+* Administering agency. (NY Office of Temporary and Disability Assistance, NYC Department of Social Services, etc.)
+* Key resident-facing entrypoints. (AccessNYC, NY MyBenefits, in-person offices, community-based organizations, etc.)
 * High-level journey/process.
 * Underlying data systems
 	* In-house vs. 3rd party
@@ -39,12 +39,13 @@ For each service, understand:
 		* If in-house, who develops/maintains?
 	* API, data export, interoperability, etc. functionality of data systems.
 	* Existing or planned integrations with other data systems.
-* Program data
+* Program information requirements
 	* What is required for eligibility determination?
 	* What is required to apply?
 	* Attempt at a detailed schema/definitions.
 	* Proposed simplified schema/definitions.
-* Legal framework(s) for privacy/data sharing.
+* Legal framework(s) for privacy/data sharing, data governance.
+	* Existing and proposed data sharing agreements.
 
 
 ## Challenges
