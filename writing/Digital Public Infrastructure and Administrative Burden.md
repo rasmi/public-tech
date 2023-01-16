@@ -47,6 +47,14 @@ For each service, understand:
 * Legal framework(s) for privacy/data sharing, data governance.
 	* Existing and proposed data sharing agreements.
 
+### Information taxonomy
+A detailed information taxonomy can be developed from the above questions and encoded programmatically. In theory, a complete taxonomy would include:
+* Which information is required for eligibility determination.
+* Which information is required for a complete application.
+* The semantic meanings or precise definitons of each piece of information, which would allow that information to be mapped to or from other fields. 
+* The original sources of each piece of information, whether from commonly availabe documents or from an applicant's inherent knowledge.
+* Any secondary sources of information, such as other data systems where this information may be stored.
+* The shareability of the information across programs based on the legal and technical constraints of its primary or secondary sources.
 
 ## Challenges
 Why hasn't this been done? What are the technical, operational, organizational, and other challenges associated with creating such infrastructure?
@@ -195,6 +203,7 @@ Other factors to explore:
 * Unified data schema
 	* Enables rules-as-code, proactive outreach, unified applications, information re-use.
 	* Tools that can map information from specific documents (e.g. tax returns) to standard schema for each program.
+		* Requires a map from application information requirement, to information field, to the source of information (e.g. a common document or the applicant.)
 
 ### Strategies for shifting burdens
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
@@ -204,6 +213,7 @@ Actors & actions:
 	* Identify available resources
 	* Understand eligibility
 	* Understand application requirements
+	* Gather information
 	* Submit application(s)
 	* Receive benefits
 	* Understand renewal process
@@ -211,6 +221,7 @@ Actors & actions:
 * CBO
 	* Determine relevant resources
 	* Determine possible eligiblity for various resources
+	* Support gathering of information
 	* Support completion of application(s)
 	* Support renewal
 * Program staff
@@ -236,6 +247,7 @@ Actors & actions:
 	* Present information
 	* Store documents
 	* Store resident information
+	* Transform or re-map resident information
 	* Notify
 	* Automate process
 	* Rules-based eligibility determination
@@ -266,6 +278,16 @@ Outcome:
 	* Can minimize process burdens, facilitate with technology.
 3. Policy + operation + technical change.
 	* Can simplify + unify program requirements, minimize process burdens, facilitate with technology.
+
+Consider for example an applicant with a very helpful public assistant. The assistant knows all of the eligibility rules and application requirements for each program, and can tell the applicant which programs they qualify for given minimal information. The assistant can also fill and submit the completed applications for these programs on behalf of the applicant when given the minimum set of documents required, which the assistant knows to ask for. Such assistants exist as staff in Community Benefit Organizations (CBOs), which do an excellent job of abstracting away the burdens of this process; however, the role of the assistant in this scenario can also be fulfilled by a well-implemented set of technologies.
+
+If eligibility rules and application requirements were encoded programmatically, an applicant could submit the required raw documentation to a software tool that then analyzes the document, extracts the relevant information, and maps/transforms it to the eligibility rules or application requirements as necessary. From this, an assessment of eligibility (and the confidence of that assessment) could be made for the applicant, who can then be prompted to submit any additional required documents or information.
+
+Additionally, if this information were stored for re-use, the software could screen the applicant for eligibility for other programs and indicate which additional information may be necessary to determine eligiblity or apply to those programs. This would also enable proactive outreach for new or changing programs, and proactive renewal that requires minimal submission of additional information.
+
+The primary benefit in this scenario is that the applicant does not need to sift through documents to map information from the document to information in eligibility rules or application. This assumes no change in process or policy for any given program, just a mediating set of tools between applicants and programs that understand the strict details of each program's requirements much in the way that CBO staff do. In a scenario where policy changes were made, the eligibility rules would be simple enough for someone to understand and determine for themselves without needing to reference any additional documentation, even if a full application does require that documentation. Similarly, if program requirements were consoldiated across programs through policy changes or benefits linkage, determining eligibility or submitting applications to multiple programs would require little to no additional effort.
+
+Note that these proposed technologies are not capable of or intended to replace the role of program or support staff in government or CBOs. Instead, the technology would enable these staff to spend more time focusing on the more differentiated work of providing care and support to individuals, rather than the toil of navigating and complying with administrative processes. Tasks like digitizing paper information, mapping data across fields, and running an applicant's information through a set of rules are all well-suited to software-based workflows. Staff can then spend more time providing more holistic support for individuals and handling exceptional cases that are failed by these tools.
 
 ### Long-term development
 #### Building blocks of digital public infrastructure
