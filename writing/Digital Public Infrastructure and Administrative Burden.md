@@ -56,6 +56,11 @@ A detailed information taxonomy can be developed from the above questions and en
 * Any secondary sources of information, such as other data systems where this information may be stored.
 * The shareability of the information across programs based on the legal and technical constraints of its primary or secondary sources.
 
+Layers:
+* Semantic -- literal meanings/definitions of pieces of information. Can be mapped on a program-by-program level and across programs. Relationships between pieces of information can be mapped (e.g. birthdate -> age)
+* Dataset -- literal data sources/tables/fields and their associated metadata. Relationships between data sources/tables can be mapped directly to represent complete schemas and possible combinations of information that can transform/map to semantic definitions.
+* Legal/organizational -- Metadata about which datasets/fields exist under which programs/jurisdictions/data-sharing agreements, which can be used to assess the feasibility of sharing data across programs/applications. Stick to dataset-level permissions for now rather than field-level.
+
 ## Challenges
 Why hasn't this been done? What are the technical, operational, organizational, and other challenges associated with creating such infrastructure?
 
