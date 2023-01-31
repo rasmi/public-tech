@@ -19,7 +19,7 @@ class IncomeType(Enum):
     SS_DEPENDENT = auto()
     SS_DISABILITY = auto()
     SS_SURVIVOR = auto()
-    SS_REITREMENT = auto()
+    SS_RETIREMENT = auto()
     NYS_DISABILITY = auto()
     VETERAN = auto()
     PENSION = auto()
