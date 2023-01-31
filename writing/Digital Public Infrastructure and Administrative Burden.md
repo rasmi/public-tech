@@ -63,6 +63,7 @@ Layers:
 
 Questions we can answer with this model:
 * Which data systems need to be integrated to enable <proactive outreach,pre-approval,benefits linkage> for each program?
+* Where are two-way integrations possible? Where are one-way integrations necessary?
 * What information can be transformed/mapped across programs at which stages of the application process?
 * Which data integrations are a technical challenge, which are organizational/legal? What are the opportunities and limitations of technical interventions?
 * To what extent can proactive outreach/pre-approval/benefits linkage be automated for each program? What informational or administrative requirements will still require manual effort on behalf of applicants or program staff?
