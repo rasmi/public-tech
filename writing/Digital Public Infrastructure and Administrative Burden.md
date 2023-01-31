@@ -61,6 +61,17 @@ Layers:
 * Dataset -- literal data sources/tables/fields and their associated metadata. Relationships between data sources/tables can be mapped directly to represent complete schemas and possible combinations of information that can transform/map to semantic definitions.
 * Legal/organizational -- Metadata about which datasets/fields exist under which programs/jurisdictions/data-sharing agreements, which can be used to assess the feasibility of sharing data across programs/applications. Stick to dataset-level permissions for now rather than field-level.
 
+Questions we can answer with this model:
+* Which data systems need to be integrated to enable <proactive outreach,pre-approval,benefits linkage> for each program?
+* What information can be transformed/mapped across programs at which stages of the application process?
+* Which data integrations are a technical challenge, which are organizational/legal? What are the opportunities and limitations of technical interventions?
+* To what extent can proactive outreach/pre-approval/benefits linkage be automated for each program? What informational or administrative requirements will still require manual effort on behalf of applicants or program staff?
+* Which documents or other sources of information are the minimum necessary for eligibility/application for each program?
+* What additional technologies might be useful for different programs (e.g. information extraction from documents)
+* To what extent can rules-as-code be useful for eligibility determination / application approval for each program?
+* With additional baseline data, what outcomes can we expect in implementing certain integrations/interventions for each program?
+* What metrics can be computed given these integrations?
+
 ## Challenges
 Why hasn't this been done? What are the technical, operational, organizational, and other challenges associated with creating such infrastructure?
 
