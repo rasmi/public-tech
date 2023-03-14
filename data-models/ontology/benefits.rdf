@@ -1,0 +1,2141 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#"
+     xml:base="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:shacl="http://www.w3.org/ns/shacl#"
+     xmlns:benefits="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AbsentParentRelationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AbsentParentRelationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ParentRelationship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AccidentInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AccidentInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AccidentInsuranceInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AccidentInsuranceInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInsuranceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AdoptionRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AdoptionRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RelationshipDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AirConditioningExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AirConditioningExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UtilityExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AlimonyPaid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AlimonyPaid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AnnuityResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AnnuityResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ArcherMSADeduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ArcherMSADeduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AssistanceReceived -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AssistanceReceived">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BankStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BankStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FinancialRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BaptismCertificate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BaptismCertificate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BirthCertificate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BirthCertificate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Blindness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Blindness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DisabilityInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BoarderLodgerIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BoarderLodgerIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BondResourceInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BondResourceInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InvestmentResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialFundInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialFundInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialReceipt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialReceipt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Receipt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialSpaceInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialSpaceInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialTrustInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialTrustInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BurialResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BusinessExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BusinessExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BusinessRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BusinessRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BuyingSellingSNAPFraud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BuyingSellingSNAPFraud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FraudInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CarPaymentExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CarPaymentExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CashResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CashResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CensusRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CensusRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InstitutionalRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CheckingAccountBalance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CheckingAccountBalance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CashResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Checkstub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Checkstub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildCareExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildCareExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildCareProviderStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildCareProviderStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildSupportEnforcementUnitStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildSupportEnforcementUnitStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildSupportIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildSupportIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildSupportOwed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildSupportOwed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildSupportPaid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildSupportPaid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildSupportPayerStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ChildSupportPayerStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+        <skos:prefLabel>CitizenshipDocument</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipStatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ClergyStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ClergyStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CourtPaymentIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CourtPaymentIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CreditCardPaymentExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CreditCardPaymentExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CreditUnionAccountBalance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CreditUnionAccountBalance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CashResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DailyLimitedActivityFromDisability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DailyLimitedActivityFromDisability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DisabilityInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DeadParentRelationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DeadParentRelationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ParentRelationship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DeathCertificate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DeathCertificate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DeductibleBusinessExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DeductibleBusinessExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BusinessExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DemographicInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DemographicInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DependentCareExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DependentCareExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DependentOfMilitary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DependentOfMilitary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ServedInMilitary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DevelopmentalDisability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DevelopmentalDisability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DisabilityInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DisabilityIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DisabilityIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DisabilityInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DisabilityInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DivorceRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DivorceRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RelationshipDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document">
+        <skos:prefLabel>Document</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DomesticProductionActivitiesDeduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DomesticProductionActivitiesDeduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DriversLicense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DriversLicense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DrugAlcoholTreamentFacility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DrugAlcoholTreamentFacility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DrugOrAlcoholDependent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DrugOrAlcoholDependent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DrugOrAlcoholTreatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DrugOrAlcoholTreatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TreatmentInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DuplicateSNAPBenefitFraud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DuplicateSNAPBenefitFraud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FraudInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EarlyWithdrawalPenaltyDeduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EarlyWithdrawalPenaltyDeduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EarnedIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EarnedIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EarnedIncomeTaxCreditResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EarnedIncomeTaxCreditResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TaxRefundResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducationGrantIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducationGrantIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducationIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducationIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducationIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducationLoanIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducationLoanIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducationIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducatorExpenses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducatorExpenses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ElectricityExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ElectricityExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UtilityExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmployerStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmployerStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentRecord"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentAuthorizationRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentAuthorizationRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EarnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BusinessRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentStatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FamilyCourtStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FamilyCourtStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FinancialRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FinancialRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FleeingFelonyLawEnforcement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FleeingFelonyLawEnforcement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LegalViolationInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ForeignPassport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ForeignPassport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Passport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FosterCareIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FosterCareIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FraudInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FraudInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LegalViolationInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#GIDependencyAllotment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#GIDependencyAllotment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#GiftIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#GiftIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HSADeduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HSADeduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthAideInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthAideInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalCareInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthFinanceInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthFinanceInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInsuranceInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInsuranceInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthFinanceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HospitalRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HospitalRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InstitutionalRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HouseholdComposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HouseholdComposition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HouseholdInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HouseholdInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HouseholdInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#I-668BEmploymentAuthorizationDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#I-668BEmploymentAuthorizationDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentAuthorizationRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#I-766EmploymentAuthorizationDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#I-766EmploymentAuthorizationDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentAuthorizationRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#I-94ArrivalDepartureRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#I-94ArrivalDepartureRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IRADeduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IRADeduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+        <skos:prefLabel>IdentityDocument</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+        <skos:prefLabel>IdentityInformation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Statement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InHospital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InHospital">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InMedicalInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InMedicalInstitution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InMedicalInstitution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InNursingHome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InNursingHome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InMedicalInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InTrustAccountInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InTrustAccountInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrustResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+        <skos:prefLabel>IncomeInformation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FinancialRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeTaxRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeTaxRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TaxRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeTaxReturn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeTaxReturn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TaxRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information">
+        <skos:prefLabel>Information</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InheritanceResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InheritanceResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InstitutionalRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InstitutionalRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InsuranceExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InsuranceExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InsurancePolicy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InsurancePolicy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InsuranceRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InsuranceRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InsuranceRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IntentionalProgramViolation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IntentionalProgramViolation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FraudInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InterestDividendRoyaltyIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InterestDividendRoyaltyIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InvestmentResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InvestmentResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#JobRelatedMovingExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#JobRelatedMovingExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LandlordInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LandlordInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LandlordStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LandlordStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LawsuitSettlementInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LawsuitSettlementInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Lease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Lease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LegalViolationInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LegalViolationInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LifeInsuranceResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LifeInsuranceResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LoanIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LoanIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LoanPaymentExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LoanPaymentExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LumpSumPaymentInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LumpSumPaymentInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Mail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Mail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MaritalStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MaritalStatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RelationshipInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MarriageRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MarriageRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RelationshipDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MealsFromDeliveryService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MealsFromDeliveryService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicaidSpendDown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicaidSpendDown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInsuranceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicalExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicalExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicalInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicalInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicareInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicareInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInsuranceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicarePrescriptionDrugCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicarePrescriptionDrugCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InsuranceRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MilitaryAllotmentIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MilitaryAllotmentIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MilitaryRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MilitaryRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InstitutionalRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageAssessmentExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageAssessmentExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageEscrowTaxExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageEscrowTaxExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageTaxExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageHomeownersInsuranceExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageHomeownersInsuranceExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageInterestExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageInterestExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgagePrincipalExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgagePrincipalExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgagePropertyTaxExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgagePropertyTaxExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageTaxExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageTaxExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageTaxExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MortgageExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MovedFromOtherNYCounty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MovedFromOtherNYCounty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MutualFundInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MutualFundInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InvestmentResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NaturalGasExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NaturalGasExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UtilityExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NaturalizationCertificate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NaturalizationCertificate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipDocument"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NeedsHomeOrPersonalCare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NeedsHomeOrPersonalCare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalCareInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NewspaperRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NewspaperRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NoFaultInsuranceIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NoFaultInsuranceIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NonMedicareGovernmentBillPayment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#NonMedicareGovernmentBillPayment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthFinanceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#OwnedHomeInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#OwnedHomeInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RealEstateResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ParentRelationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ParentRelationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RelationshipInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Passport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Passport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipDocument"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Paystub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Paystub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PensionIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PensionIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RetirementIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PermanentResidentCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PermanentResidentCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CitizenshipDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalCareInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalCareInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PhotoID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PhotoID">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PhysicianStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PhysicianStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PregnancyInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PregnancyInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PreviousEmployment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PreviousEmployment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PreviousIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PreviousIncome">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeInformation"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PreviousIncome"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PrivateDisabilityInsuranceIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PrivateDisabilityInsuranceIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PrivatePensionAnnuityIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PrivatePensionAnnuityIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Program">
+        <skos:prefLabel>Program</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PropaneExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PropaneExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UtilityExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PropertyTaxRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PropertyTaxRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TaxRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicAssistanceFraudTwoOrMoreStates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicAssistanceFraudTwoOrMoreStates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FraudInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicAssistanceGrant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicAssistanceGrant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicHousingInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicHousingInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RailroadRetirementIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RailroadRetirementIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RetirementIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RealEstateInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RealEstateInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RealEstateResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RealEstateResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RealEstateResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Receipt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Receipt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+        <skos:prefLabel>Receipt</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ReceivedBenefitsNotEntitledNotRepaid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ReceivedBenefitsNotEntitledNotRepaid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FraudInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RecentCarAccident -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RecentCarAccident">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AccidentInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RecentMedicalBills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RecentMedicalBills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthFinanceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RecentWorkAccident -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RecentWorkAccident">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#AccidentInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RelationshipDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RelationshipDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RelationshipInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RelationshipInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RentExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RentExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RentIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RentIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EarnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RentReceipt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RentReceipt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Receipt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+        <skos:prefLabel>ResidenceDocument</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RetirementAccountBalance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RetirementAccountBalance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CashResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RetirementIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RetirementIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RoomAndBoardExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RoomAndBoardExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SIMPLEDeduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SIMPLEDeduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SafeDepositBoxResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SafeDepositBoxResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SavingsAccountBalance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SavingsAccountBalance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CashResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SavingsBondResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SavingsBondResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BondResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ScheduleCQuarterlyTaxPayment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ScheduleCQuarterlyTaxPayment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TaxRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SchoolRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SchoolRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InstitutionalRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Section8HUDSubsidizedHousing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Section8HUDSubsidizedHousing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicHousingInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfEmployedRetirementDeduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfEmployedRetirementDeduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfEmploymentHealthInsuranceDeduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfEmploymentHealthInsuranceDeduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfEmploymentIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfEmploymentIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EmploymentIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfEmploymentRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfEmploymentRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BusinessRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfEmploymentTaxDeduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfEmploymentTaxDeduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ServedInMilitary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ServedInMilitary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SewerExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SewerExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UtilityExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityCorrespondence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityCorrespondence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityDependentBenefits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityDependentBenefits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityDisabilityIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityDisabilityIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityNumber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityNumber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InstitutionalRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityReitrementBenefits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityReitrementBenefits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecuritySurvivorsBenefits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecuritySurvivorsBenefits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SpousalSupportIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SpousalSupportIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SpousalSupportPaid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SpousalSupportPaid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SpouseServedInMilitary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SpouseServedInMilitary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ServedInMilitary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Statement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Statement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#StockResourceInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#StockResourceInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InvestmentResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#StudentLoanInterestDeduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#StudentLoanInterestDeduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SupplementalSecurityIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SupplementalSecurityIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TaxRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TaxRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FinancialRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TaxRefundResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TaxRefundResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TenantStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TenantStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PersonStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TradingBenefitsForFirearmsDrugs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TradingBenefitsForFirearmsDrugs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LegalViolationInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrailerLotExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrailerLotExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrainingStipendIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrainingStipendIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TransferredPropertyToGetBenefits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TransferredPropertyToGetBenefits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#FraudInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TransferredResourceInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TransferredResourceInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TransferredTrustInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TransferredTrustInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TransferredResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrashExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrashExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UtilityExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TreatmentInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TreatmentInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#MedicalInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrustBeneficiaryInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrustBeneficiaryInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrustResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrustFundInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrustFundInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrustResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrustResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TrustResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TuitionFeesExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TuitionFeesExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#USPassport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#USPassport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Passport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnableToWorkFromDisability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnableToWorkFromDisability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#DisabilityInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnemploymentInsuranceIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnemploymentInsuranceIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnionBenefitIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnionBenefitIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnpaidBillInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnpaidBillInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UtilityExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UtilityExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VehicleResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VehicleResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VeteransAffairsCorrespondence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VeteransAffairsCorrespondence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VeteransAffairsRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VeteransAffairsRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InstitutionalRecord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VeteransIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VeteransIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ViolatingProbation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ViolatingProbation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LegalViolationInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WaterUtilityExpense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WaterUtilityExpense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UtilityExpense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WillBillingInsuranceCauseHarm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WillBillingInsuranceCauseHarm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HealthInsuranceInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WorkersCompensation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WorkersCompensation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#UnearnedIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Statement"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
