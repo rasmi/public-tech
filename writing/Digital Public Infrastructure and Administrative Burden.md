@@ -124,7 +124,7 @@ Other factors to explore:
 * Type of reform (e.g. reformist vs. non-reformist)
 	* Is it reflecting good/simple policy, or obscuring bad/complex policy?
 
-* Benefits linkage
+* **Benefits linkage**
 	* Fully or partially enrolling someone based on their enrollment in (or eligibility for) other programs.
 		* Examples: SNAP/Medicaid
 	* Solves:
@@ -142,7 +142,7 @@ Other factors to explore:
 		* Decreased processing times.
 		* Decreased staff labor.
 
-* Proactive outreach
+* **Proactive outreach**
 	* Using data from one or more programs to target individuals with information about other programs or renewal.
 		* Examples: Benefits Data Trust, GetCalFresh
 	* Solves:
@@ -156,7 +156,7 @@ Other factors to explore:
 	* Outcomes:
 		* Increased enrollment for those eligible but not enrolled.
 
-* Integrated benefits
+* **Integrated benefits**
 	* Combining multiple benefits applications into a single unified application.
 		* Examples: CfA MNBenefits.mn.gov, Civilla Re:Form
 	* Solves:
@@ -173,7 +173,7 @@ Other factors to explore:
 		* Decreased processing time.
 		* Decreased staff labor (?)
 
-* Information re-use
+* **Information re-use**
 	* Re-using information from one program in applications for another.
 		* Examples: [Nava PBC with State of Vermont](https://www.navapbc.com/case-studies/integrating-eligibility-enrollment-software),  [My File NYC](https://www.nyc.gov/site/opportunity/portfolio/my-file-nyc.page), CiviForm.us (disclaimer: I worked on this)
 	* Solves:
@@ -193,7 +193,7 @@ Other factors to explore:
 		* Decreased application time.
 		* Increased enrollment rate.
 
-* Rules as code
+* **Rules as code**
 	* Defining and determining eligibility and approval of benefits via programmatic rules that can be processed automatically.
 		* Examples: AccessNYC, 18F Eligibility APIs
 	* Solves:
