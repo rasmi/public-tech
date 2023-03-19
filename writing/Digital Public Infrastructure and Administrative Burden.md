@@ -124,6 +124,11 @@ Other factors to explore:
 * Type of reform (e.g. reformist vs. non-reformist)
 	* Is it reflecting good/simple policy, or obscuring bad/complex policy?
 
+Format as a table?:
+| Approach | Description | Examples | Addresses | Does not address | Requires | Outcomes |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| **Benefits linkage** | Fully or partially enrolling someone based on their enrollment in (or eligibility for) other programs. | SNAP/Medicaid cross-enrollment | <ul><li>Learning costs of discovering other programs and understanding requirements.</li><li>Compliance costs of applying to another program.</li></ul> | <ul><li>Compliance cost of original program.</li><li>Marginal learning/compliance cost of linkage.</li><li>Learning and compliance costs associated with potential negative interactions across programs.</li></ul> | <ul><li>Political / process change to require benefits linkage.</li><li>Technical capacity to share status/eligibility information across programs.</li></ul>| <ul><li>Increased enrollement for those eligible but not enrolled.</li><li>Faster processing times.</li><li>Decreased staff labor.</li></ul> |
+
 * **Benefits linkage**
 	* Fully or partially enrolling someone based on their enrollment in (or eligibility for) other programs.
 		* Examples: SNAP/Medicaid
