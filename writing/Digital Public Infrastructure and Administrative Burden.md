@@ -124,7 +124,6 @@ Other factors to explore:
 * Type of reform (e.g. reformist vs. non-reformist)
 	* Is it reflecting good/simple policy, or obscuring bad/complex policy?
 
-
 * Benefits linkage
 	* Fully or partially enrolling someone based on their enrollment in (or eligibility for) other programs.
 		* Examples: SNAP/Medicaid
@@ -138,6 +137,11 @@ Other factors to explore:
 	* Requires:
 		* Political / process change to require benefits linkage.
 		* Technical capacity to share status/eligibility information across programs.
+	* Outcomes:
+		* Increased enrollement for those eligible but not enrolled.
+		* Decreased processing times.
+		* Decreased staff labor.
+
 * Proactive outreach
 	* Using data from one or more programs to target individuals with information about other programs or renewal.
 		* Examples: Benefits Data Trust, GetCalFresh
@@ -149,6 +153,9 @@ Other factors to explore:
 		* Data sharing across programs
 		* Standardized defintions of application data (but not requirements) across programs.
 		* SMS / email / data analysis infrastructure
+	* Outcomes:
+		* Increased enrollment for those eligible but not enrolled.
+
 * Integrated benefits
 	* Combining multiple benefits applications into a single unified application.
 		* Examples: CfA MNBenefits.mn.gov, Civilla Re:Form
@@ -159,6 +166,13 @@ Other factors to explore:
 		* Complexity and associated learning and compliance costs of unified application.
 	* Requires:
 		* Technical and operational capacity to standardize forms
+	* Outcomes:
+		* Increase in application completion.
+		* Increase in enrollment.
+		* Decreased application time.
+		* Decreased processing time.
+		* Decreased staff labor (?)
+
 * Information re-use
 	* Re-using information from one program in applications for another.
 		* Examples: [Nava PBC with State of Vermont](https://www.navapbc.com/case-studies/integrating-eligibility-enrollment-software),  [My File NYC](https://www.nyc.gov/site/opportunity/portfolio/my-file-nyc.page), CiviForm.us (disclaimer: I worked on this)
@@ -175,6 +189,10 @@ Other factors to explore:
 			* Or, a way to map information from one program to another.
 		* Technical capacity to share information.
 		* Legal/policy frameworks to share information (depending on implementation)
+	* Outcomes:
+		* Decreased application time.
+		* Increased enrollment rate.
+
 * Rules as code
 	* Defining and determining eligibility and approval of benefits via programmatic rules that can be processed automatically.
 		* Examples: AccessNYC, 18F Eligibility APIs
@@ -188,6 +206,10 @@ Other factors to explore:
 	* Requires:
 		* Policy changes to fund and require such functionality.
 		* Technical and operational capacity to represent law programmatically.
+	* Outcomes:
+		* Increased enrollment due to proactive outreach.
+		* Increased enrollment due to eligibility screening.
+		* Decreased staff labor due to assisted determination.
 
 
 ## Opportunities
