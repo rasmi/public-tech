@@ -1,5 +1,22 @@
 import { Node, Position } from "reactflow";
 
+const groupNodes: Node[] = [
+  {
+    id: "applicant",
+    type: "group",
+    data: null,
+    position: { x: 0, y: 0 },
+    style: { width: 2000, height: 200 },
+  },
+  {
+    id: "administrator",
+    type: "group",
+    data: null,
+    position: { x: 0, y: 250 },
+    style: { width: 2000, height: 200 },
+  },
+];
+
 const applicantNodes: Node[] = [
   {
     id: "understand_resources",
@@ -107,41 +124,50 @@ const administratorNodes: Node[] = [
     targetPosition: Position.Left,
     sourcePosition: Position.Right,
     data: { label: "Receive application" },
-    position: { x: 1000, y: 400 },
+    position: { x: 1000, y: 100 },
   },
   {
     id: "verify_application_complete",
     targetPosition: Position.Left,
     sourcePosition: Position.Right,
     data: { label: "Verify the application is complete." },
-    position: { x: 1200, y: 400 },
+    position: { x: 1200, y: 100 },
   },
   {
     id: "request_additional_info",
     targetPosition: Position.Left,
     sourcePosition: Position.Right,
     data: { label: "Request additional information." },
-    position: { x: 1200, y: 300 },
+    position: { x: 1200, y: 0 },
   },
   {
     id: "make_determination",
     targetPosition: Position.Left,
     sourcePosition: Position.Right,
     data: { label: "Make a final determination." },
-    position: { x: 1400, y: 400 },
+    position: { x: 1400, y: 100 },
   },
   {
     id: "disburse_benefits",
     targetPosition: Position.Left,
     sourcePosition: Position.Right,
     data: { label: "Disburse benefit." },
-    position: { x: 1600, y: 400 },
+    position: { x: 1600, y: 100 },
   },
 ];
+
+applicantNodes.forEach((node) => {
+  node.parentNode = "applicant";
+});
+
+administratorNodes.forEach((node) => {
+  node.parentNode = "administrator";
+});
 
 const techNodes: Node[] = [];
 
 const initialNodes: Node[] = [
+  ...groupNodes,
   ...applicantNodes,
   ...administratorNodes,
   ...techNodes,
