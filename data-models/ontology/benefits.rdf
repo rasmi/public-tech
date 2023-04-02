@@ -1944,15 +1944,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityCorrespondence -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityCorrespondence">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitRecord"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityDependentBenefits -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityDependentBenefits">
@@ -1973,6 +1964,15 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityIncome">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitIncome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityLetter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityLetter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitRecord"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
     </owl:Class>
     
 
@@ -2315,9 +2315,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VeteransAffairsCorrespondence -->
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VeteransAffairsLetter -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VeteransAffairsCorrespondence">
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#VeteransAffairsLetter">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
     </owl:Class>
     
