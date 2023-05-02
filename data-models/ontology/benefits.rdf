@@ -913,7 +913,7 @@
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityStatement -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityStatement">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Statement"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
     </owl:Class>
     
 
@@ -2076,12 +2076,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Statement -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Statement"/>
-    
-
-
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#StockResourceInformation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#StockResourceInformation">
@@ -2391,14 +2385,7 @@
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Statement"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Document"/>
     </owl:Class>
 </rdf:RDF>
 
