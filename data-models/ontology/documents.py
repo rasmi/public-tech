@@ -380,6 +380,10 @@ class ChildSupportEnforcementUnitStatement(WrittenStatement):
     pass
 
 
+class CommunityOrganizationStatement(WrittenStatement):
+    pass
+
+
 class EmployerStatement(EmploymentRecord, WrittenStatement):
     pass
 
