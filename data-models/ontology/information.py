@@ -605,7 +605,7 @@ class TradingBenefitsForFirearmsDrugs(LegalViolationInformation):
     pass
 
 
-class ViolatingProbation(LegalViolationInformation):
+class ViolatingProbationParole(LegalViolationInformation):
     pass
 
 

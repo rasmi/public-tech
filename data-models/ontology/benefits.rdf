@@ -2359,9 +2359,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ViolatingProbation -->
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ViolatingProbationParole -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ViolatingProbation">
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ViolatingProbationParole">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LegalViolationInformation"/>
     </owl:Class>
     
