@@ -2012,6 +2012,7 @@
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityReitrementBenefits -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityReitrementBenefits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#RetirementIncome"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SocialSecurityIncome"/>
     </owl:Class>
     
