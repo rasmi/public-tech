@@ -373,6 +373,10 @@ class MortgageRecord(ResidenceDocument):
     pass
 
 
+class ResidenceHistoryRecord(ResidenceDocument):
+    pass
+
+
 # Written statements
 
 

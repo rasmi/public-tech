@@ -1782,6 +1782,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceHistoryRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceHistoryRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceDocument"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResourceInformation">
