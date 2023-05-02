@@ -1,5 +1,6 @@
 *.ipynb
 .env
+__pycache__
 
 node_modules
 npm-debug.log*
