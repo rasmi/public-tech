@@ -157,6 +157,10 @@ class PermanentResidentCard(CitizenshipDocument):
     pass
 
 
+class VisaDocument(CitizenshipDocument):
+    pass
+
+
 # Financial records
 
 
