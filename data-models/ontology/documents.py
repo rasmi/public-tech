@@ -279,6 +279,10 @@ class SocialSecurityID(IdentityDocument):
     pass
 
 
+class VoterRegistrationCard(IdentityDocument):
+    pass
+
+
 # Institutional records
 
 
