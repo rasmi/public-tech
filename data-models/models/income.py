@@ -9,6 +9,7 @@ from common import Frequency
 
 class IncomeType(Enum):
     """Income types."""
+
     WAGES = auto()
     SELF_EMPLOYMENT = auto()
     UNEMPLOYMENT = auto()
@@ -35,6 +36,7 @@ class IncomeType(Enum):
 @dataclass
 class Income:
     """Income model."""
+
     income_type: IncomeType
     frequency: Frequency
     amount: float

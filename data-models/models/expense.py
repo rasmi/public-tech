@@ -8,7 +8,8 @@ from common import Frequency
 
 
 class ExpenseType(Enum):
-    "Expense types."""
+    """Expense types."""
+
     CHILD_CARE = auto()
     CHILD_SUPPORT = auto()
     DEPENDENT_CARE = auto()
@@ -25,6 +26,7 @@ class ExpenseType(Enum):
 @dataclass
 class Expense:
     """Expense model."""
+
     expense_type: ExpenseType
     frequency: Frequency
     amount: float

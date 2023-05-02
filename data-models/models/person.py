@@ -10,6 +10,7 @@ from income import Income
 
 class HeadOfHouseholdRelation(Enum):
     """Relationship of person to the head of household."""
+
     CHILD = auto()
     FOSTER_CHILD = auto()
     STEP_CHILD = auto()
@@ -30,6 +31,7 @@ class HeadOfHouseholdRelation(Enum):
 @dataclass
 class Person:
     """Information related to a person."""
+
     # pylint: disable=too-many-instance-attributes
 
     age: int

@@ -6,6 +6,7 @@ from dataclasses import dataclass
 @dataclass
 class Household:
     """Information related to a household."""
+
     # pylint: disable=too-many-instance-attributes
 
     city: str
