@@ -71,6 +71,10 @@ class PreviousEmployment(EmploymentInformation):
     pass
 
 
+class HoursWorked(EmploymentInformation):
+    pass
+
+
 # Expense information
 
 
