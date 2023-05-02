@@ -913,6 +913,7 @@
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityStatement -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IdentityDocument"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#WrittenStatement"/>
     </owl:Class>
     
