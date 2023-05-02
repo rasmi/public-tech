@@ -538,6 +538,10 @@ class TrainingStipendIncome(UnearnedIncome):
     pass
 
 
+class TrustIncome(UnearnedIncome):
+    pass
+
+
 class UnemploymentInsuranceIncome(UnearnedIncome):
     pass
 
