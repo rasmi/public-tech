@@ -275,7 +275,7 @@ class TribalID(PhotoID):
     pass
 
 
-class SocialSecurityID(IdentityDocument):
+class SocialSecurityCard(IdentityDocument):
     pass
 
 
