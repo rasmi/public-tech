@@ -634,9 +634,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducatorExpenses -->
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducatorExpense -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducatorExpenses">
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#EducatorExpense">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ExpenseInformation"/>
     </owl:Class>
     
@@ -1540,15 +1540,7 @@
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PreviousIncome -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PreviousIncome">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeInformation"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PreviousIncome"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Information"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeInformation"/>
     </owl:Class>
     
 
