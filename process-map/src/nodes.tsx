@@ -15,6 +15,13 @@ const groupNodes: Node[] = [
     position: { x: 0, y: 250 },
     style: { width: 2000, height: 200 },
   },
+  {
+    id: "tech",
+    type: "group",
+    data: null,
+    position: { x: 0, y: 500 },
+    style: { width: 2000, height: 200 },
+  },
 ];
 
 const applicantNodes: Node[] = [
