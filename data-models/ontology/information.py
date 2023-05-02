@@ -56,6 +56,10 @@ class CitizenshipStatus(CitizenshipInformation):
     pass
 
 
+class ImmigrationStatus(CitizenshipInformation):
+    pass
+
+
 # Employment information
 
 
