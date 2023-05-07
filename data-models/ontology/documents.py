@@ -61,6 +61,10 @@ class WrittenStatement(Document):
     pass
 
 
+class VehicleRecord(Document):
+    pass
+
+
 # BenefitRecords
 
 
@@ -449,4 +453,15 @@ class SelfIncomeStatement(IncomeStatement, SelfStatement):
 
 
 class VeteransAffairsLetter(WrittenStatement):
+    pass
+
+
+# Vehicle records
+
+
+class VehicleRegistration(VehicleRecord):
+    pass
+
+
+class VehicleTitle(VehicleRecord):
     pass
