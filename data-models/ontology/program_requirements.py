@@ -284,6 +284,7 @@ snap_other_info = {
     ],
     information.UnableToWorkFromDisability: [
         documents.PhysicianStatement,
+        documents.SocialSecurityLetter,
     ],
 }
 
