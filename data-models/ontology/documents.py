@@ -111,6 +111,10 @@ class InsuranceBill(Bill, InsuranceRecord):
     pass
 
 
+class MedicalBill(Bill):
+    pass
+
+
 class CarInsuranceBill(InsuranceBill):
     pass
 
