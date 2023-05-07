@@ -333,6 +333,10 @@ class InsurancePolicy(InsuranceRecord):
     pass
 
 
+class LifeInsurancePolicy(InsurancePolicy):
+    pass
+
+
 class MedicarePrescriptionDrugCard(InsuranceRecord):
     pass
 

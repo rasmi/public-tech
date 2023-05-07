@@ -1161,6 +1161,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LifeInsurancePolicy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LifeInsurancePolicy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InsurancePolicy"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LifeInsuranceResource -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#LifeInsuranceResource">
