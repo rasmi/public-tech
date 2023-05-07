@@ -1,6 +1,6 @@
 """Program requirements."""
-import documents
-import information
+from .. import documents
+from .. import information
 
 # See forms LDSS-4826 and LDSS-4826A:
 # https://otda.ny.gov/programs/applications/4826.pdf
