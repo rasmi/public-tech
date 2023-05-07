@@ -88,6 +88,14 @@ class UnemploymentInsuranceLetter(BenefitRecord, WrittenStatement):
     pass
 
 
+class MedicareLetter(BenefitRecord, InsuranceRecord):
+    pass
+
+
+class MedicaidLetter(BenefitRecord, InsuranceRecord):
+    pass
+
+
 # Bills
 
 
