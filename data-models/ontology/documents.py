@@ -185,6 +185,10 @@ class VisaDocument(CitizenshipDocument):
     pass
 
 
+class FS_240BirthAbroadDocument(CitizenshipDocument):
+    pass
+
+
 # Education records
 
 
