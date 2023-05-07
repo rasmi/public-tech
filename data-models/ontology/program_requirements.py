@@ -86,72 +86,213 @@ snap_earned_income_info = {
 }
 
 snap_unearned_income_info = {
-    information.SupplementalSecurityIncome,
-    information.SocialSecurityDisabilityIncome,
-    information.SocialSecurityDependentBenefits,
-    information.SocialSecuritySurvivorsBenefits,
-    information.SocialSecurityRetirementBenefits,
-    information.RailroadRetirementIncome,
-    information.PensionIncome,
-    information.InterestDividendRoyaltyIncome,
-    information.WorkersCompensation,
-    information.DisabilityIncome,
-    information.VeteransIncome,
-    information.PublicAssistanceGrant,
-    information.GIDependencyAllotment,
-    information.EducationGrantIncome,
-    information.EducationLoanIncome,
-    information.GiftIncome,
-    information.FosterCareIncome,
-    information.ChildSupportIncome,
-    information.SpousalSupportIncome,
-    information.PrivateDisabilityInsuranceIncome,
-    information.NoFaultInsuranceIncome,
-    information.UnionBenefitIncome,
-    information.LoanIncome,
-    information.TrustIncome,
-    information.TrainingStipendIncome,
-    information.BoarderLodgerIncome,
+    information.SupplementalSecurityIncome: [],  # No verification necessary for SSI in NYC.
+    information.SocialSecurityDisabilityIncome: [
+        documents.BankStatement,
+        documents.SocialSecurityLetter,
+        documents.SocialSecurityCheck,
+    ],
+    information.SocialSecurityDependentBenefits: [
+        documents.BankStatement,
+        documents.SocialSecurityLetter,
+        documents.SocialSecurityCheck,
+    ],
+    information.SocialSecuritySurvivorsBenefits: [
+        documents.BankStatement,
+        documents.SocialSecurityLetter,
+        documents.SocialSecurityCheck,
+    ],
+    information.SocialSecurityRetirementBenefits: [
+        documents.BankStatement,
+        documents.SocialSecurityLetter,
+        documents.SocialSecurityCheck,
+    ],
+    information.RailroadRetirementIncome: [
+        documents.BankStatement,
+        documents.RetirementRecord,
+    ],
+    information.PensionIncome: [
+        documents.PensionStatement,
+        documents.BankStatement,
+        documents.RetirementRecord,
+    ],
+    information.InterestDividendRoyaltyIncome: [
+        documents.BankStatement,
+    ],
+    information.WorkersCompensation: [
+        documents.BankStatement,
+    ],
+    information.UnemploymentInsuranceIncome: [
+        documents.BankStatement,
+        documents.UnemploymentInsuranceCheck,
+        documents.UnemploymentInsuranceLetter,
+    ],
+    information.DisabilityIncome: [
+        documents.BankStatement,
+        documents.StateDisabilityCheck,
+        documents.StateDisabilityLetter,
+    ],
+    information.VeteransIncome: [
+        documents.BankStatement,
+        documents.VeteransAffairsLetter,
+    ],
+    information.PublicAssistanceGrant: [
+        documents.BankStatement,
+    ],
+    information.GIDependencyAllotment: [
+        documents.BankStatement,
+        documents.VeteransAffairsLetter,
+    ],
+    information.EducationGrantIncome: [
+        documents.BankStatement,
+    ],
+    information.EducationLoanIncome: [
+        documents.BankStatement,
+    ],
+    information.GiftIncome: [
+        documents.BankStatement,
+    ],
+    information.FosterCareIncome: [
+        documents.BankStatement,
+    ],
+    information.ChildSupportIncome: [
+        documents.BankStatement,
+    ],
+    information.SpousalSupportIncome: [
+        documents.BankStatement,
+    ],
+    information.PrivateDisabilityInsuranceIncome: [
+        documents.BankStatement,
+    ],
+    information.NoFaultInsuranceIncome: [
+        documents.BankStatement,
+    ],
+    information.UnionBenefitIncome: [
+        documents.BankStatement,
+    ],
+    information.LoanIncome: [
+        documents.BankStatement,
+    ],
+    information.TrustIncome: [
+        documents.BankStatement,
+    ],
+    information.TrainingStipendIncome: [
+        documents.BankStatement,
+    ],
+    information.BoarderLodgerIncome: [
+        documents.BankStatement,
+        documents.RentalIncomeStatement,
+        documents.RentalIncomeCheck,
+    ],
 }
 
 snap_resource_info = {
-    information.CashResource,
-    information.CheckingAccountBalance,
-    information.SavingsAccountBalance,
-    information.CreditUnionAccountBalance,
-    information.StockResourceInformation,
-    information.BondResourceInformation,
-    information.SavingsBondResource,
-    information.TrustFundInformation,
-    information.VehicleResource,
+    information.CashResource: [],
+    information.CheckingAccountBalance: [
+        documents.BankStatement,
+    ],
+    information.SavingsAccountBalance: [
+        documents.BankStatement,
+    ],
+    information.CreditUnionAccountBalance: [
+        documents.BankStatement,
+    ],
+    information.StockResourceInformation: [
+        documents.BankStatement,
+        documents.BrokerageStatement,
+    ],
+    information.BondResourceInformation: [
+        documents.BankStatement,
+        documents.BrokerageStatement,
+    ],
+    information.LifeInsuranceResource: [
+        documents.LifeInsurancePolicy,
+    ],
+    information.SavingsBondResource: [
+        documents.BankStatement,
+        documents.BrokerageStatement,
+    ],
+    information.TrustFundInformation: [
+        documents.BankStatement,
+        documents.BrokerageStatement,
+    ],
+    information.VehicleResource: [
+        documents.VehicleRegistration,
+        documents.VehicleTitle,
+    ],
+    information.OwnedHomeInformation: [
+        documents.MortgageRecord,
+        documents.PropertyDeed,
+    ],
+    information.HealthInsuranceInformation: [
+        documents.HealthInsurancePolicy,
+        documents.MedicareLetter,
+    ],
 }
 
 snap_expense_info = {
-    information.RentExpense,
-    information.MortgageExpense,
-    information.MortgageHomeownersInsuranceExpense,
-    information.MortgagePropertyTaxExpense,
-    information.UtilityExpense,
-    information.ChildSupportOwed,
-    information.ChildSupportPaid,
-    information.MedicalExpense,
-    information.MedicaidSpendDown,
-    information.TuitionFeesExpense,
+    information.RentExpense: [
+        documents.RentReceipt,
+        documents.RentBill,
+        documents.Lease,
+        documents.LandlordStatement,
+    ],
+    information.MortgageExpense: [
+        documents.MortgageRecord,
+    ],
+    information.MortgageHomeownersInsuranceExpense: [
+        documents.HomeownersInsuranceBill,
+    ],
+    information.MortgagePropertyTaxExpense: [
+        documents.PropertyTaxRecord,
+    ],
+    information.UtilityExpense: [
+        documents.UtilityBill,
+    ],
+    information.ChildSupportOwed: [
+        documents.ChildSupportPayerStatement,
+    ],
+    information.ChildSupportPaid: [
+        documents.ChildSupportPayerStatement,
+    ],
+    information.ChildCareExpense: [
+        documents.ChildCareProviderStatement,
+    ],
+    information.MedicalExpense: [
+        documents.MedicalBill,
+        documents.HealthInsuranceBill,
+    ],
+    information.MedicaidSpendDown: [
+        documents.MedicaidLetter,
+    ],
+    information.TuitionFeesExpense: [
+        documents.TuitionBill,
+    ],
 }
 
 snap_other_info = {
-    information.DrugAlcoholTreatmentFacility,
-    information.ServedInMilitary,
-    information.PregnancyInformation,
-    information.UnableToWorkFromDisability,
-    information.TransferredPropertyToGetBenefits,
+    information.DrugAlcoholTreatmentFacility: [
+        documents.PhysicianStatement,
+    ],
+    information.ServedInMilitary: [
+        documents.MilitaryRecord,
+        documents.MilitaryID,
+        documents.VeteransAffairsLetter,
+    ],
+    information.PregnancyInformation: [
+        documents.PhysicianStatement,
+    ],
+    information.UnableToWorkFromDisability: [
+        documents.PhysicianStatement,
+    ],
 }
 
 snap_compliance_info = {
-    information.FleeingFelonyLawEnforcement,
-    information.ViolatingProbationParole,
-    information.IntentionalProgramViolation,
-    information.TradingBenefitsForFirearmsDrugs,
-    information.BuyingSellingSNAPFraud,
-    information.PublicAssistanceFraudTwoOrMoreStates,
+    information.FleeingFelonyLawEnforcement: [],
+    information.ViolatingProbationParole: [],
+    information.IntentionalProgramViolation: [],
+    information.TradingBenefitsForFirearmsDrugs: [],
+    information.BuyingSellingSNAPFraud: [],
+    information.PublicAssistanceFraudTwoOrMoreStates: [],
+    information.TransferredPropertyToGetBenefits: [],
 }
