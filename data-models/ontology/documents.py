@@ -389,6 +389,10 @@ class ResidenceHistoryRecord(ResidenceDocument):
     pass
 
 
+class PropertyDeed(ResidenceDocument):
+    pass
+
+
 # Written statements
 
 
