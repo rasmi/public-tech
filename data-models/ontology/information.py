@@ -588,6 +588,10 @@ class Age(DemographicInformation):
     pass
 
 
+class DomesticViolenceSupport(PersonalInformation):
+    pass
+
+
 class LegalViolationInformation(PersonalInformation):
     pass
 
