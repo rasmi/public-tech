@@ -9,6 +9,10 @@ class CitizenshipInformation(Information):
     pass
 
 
+class EducationInformation(Information):
+    pass
+
+
 class EmploymentInformation(Information):
     pass
 
@@ -57,6 +61,17 @@ class CitizenshipStatus(CitizenshipInformation):
 
 
 class ImmigrationStatus(CitizenshipInformation):
+    pass
+
+
+# Education information
+
+
+class EducationStatus(EducationInformation):
+    pass
+
+
+class EducationHistory(EducationInformation):
     pass
 
 

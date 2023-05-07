@@ -21,6 +21,10 @@ class CitizenshipDocument(Document):
     pass
 
 
+class EducationRecord(Document):
+    pass
+
+
 class FinancialRecord(Document):
     pass
 
@@ -178,6 +182,21 @@ class PermanentResidentCard(CitizenshipDocument):
 
 
 class VisaDocument(CitizenshipDocument):
+    pass
+
+
+# Education records
+
+
+class SchoolEnrollmentRecord(EducationRecord):
+    pass
+
+
+class SchoolAttendanceRecord(EducationRecord):
+    pass
+
+
+class SchoolStatement(EducationRecord, WrittenStatement):
     pass
 
 
