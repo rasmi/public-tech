@@ -900,6 +900,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HomelessShelterStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HomelessShelterStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#CommunityOrganizationStatement"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceDocument"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HomeownersInsuranceBill -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#HomeownersInsuranceBill">
@@ -1740,6 +1749,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicHousingCertificate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicHousingCertificate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#InstitutionalRecord"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceDocument"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicHousingInformation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#PublicHousingInformation">
@@ -2017,6 +2035,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Section8AwardLetter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Section8AwardLetter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#BenefitRecord"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceDocument"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Section8HUDSubsidizedHousing -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Section8HUDSubsidizedHousing">
@@ -2069,6 +2096,15 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfIncomeStatement">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IncomeStatement"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfResidenceStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfResidenceStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ResidenceDocument"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#SelfStatement"/>
     </owl:Class>
     

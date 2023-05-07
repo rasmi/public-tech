@@ -436,6 +436,14 @@ class PropertyDeed(ResidenceDocument):
     pass
 
 
+class Section8AwardLetter(ResidenceDocument, BenefitRecord):
+    pass
+
+
+class PublicHousingCertificate(ResidenceDocument, InstitutionalRecord):
+    pass
+
+
 # Written statements
 
 
@@ -500,6 +508,14 @@ class SelfStatement(PersonStatement):
 
 
 class SelfIncomeStatement(IncomeStatement, SelfStatement):
+    pass
+
+
+class SelfResidenceStatement(ResidenceDocument, SelfStatement):
+    pass
+
+
+class HomelessShelterStatement(ResidenceDocument, CommunityOrganizationStatement):
     pass
 
 
