@@ -168,6 +168,10 @@ class BankStatement(FinancialRecord):
     pass
 
 
+class BrokerageStatement(FinancialRecord):
+    pass
+
+
 class CreditCardStatement(Bill, FinancialRecord):
     pass
 
