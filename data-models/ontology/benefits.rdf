@@ -2311,6 +2311,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TuitionBill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TuitionBill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#Bill"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TuitionFeesExpense -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#TuitionFeesExpense">

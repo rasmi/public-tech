@@ -139,6 +139,10 @@ class LifeInsuranceBill(InsuranceBill):
     pass
 
 
+class TuitionBill(Bill):
+    pass
+
+
 # Business records
 
 
