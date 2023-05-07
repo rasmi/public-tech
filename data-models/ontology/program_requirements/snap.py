@@ -1,4 +1,4 @@
-"""Program requirements."""
+"""SNAP requirements."""
 from .. import documents
 from .. import information
 
