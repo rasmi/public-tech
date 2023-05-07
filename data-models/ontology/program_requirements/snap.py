@@ -13,6 +13,10 @@ from .. import information
 # See Form W-129G:
 # https://www.nyc.gov/assets/hra/downloads/pdf/services/snap/eligibility_factors_and_suggested_documentation_guide.pdf
 
+# See additional forms:
+# https://otda.ny.gov/programs/applications/
+
+
 snap_general_info = {
     information.IdentityInformation: [
         documents.StateID,
