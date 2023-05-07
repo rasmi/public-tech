@@ -90,6 +90,10 @@ class HoursWorked(EmploymentInformation):
     pass
 
 
+class SeekingEmployment(EmploymentInformation):
+    pass
+
+
 # Expense information
 
 

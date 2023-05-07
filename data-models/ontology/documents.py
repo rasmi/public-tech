@@ -511,6 +511,10 @@ class SelfIncomeStatement(IncomeStatement, SelfStatement):
     pass
 
 
+class WorkSearchRecord(EmploymentRecord, SelfStatement):
+    pass
+
+
 class SelfResidenceStatement(ResidenceDocument, SelfStatement):
     pass
 
