@@ -823,3 +823,7 @@ class PublicHousingInformation(ShelterInformation):
 
 class Section8HUDSubsidizedHousing(PublicHousingInformation):
     pass
+
+
+class IsHomeless(ShelterInformation):
+    pass

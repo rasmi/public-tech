@@ -1153,6 +1153,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IsHomeless -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#IsHomeless">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#ShelterInformation"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#JobRelatedMovingExpense -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rasmi/ontologies/2023/2/benefits#JobRelatedMovingExpense">
