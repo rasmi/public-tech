@@ -301,3 +301,13 @@ snap_compliance_info = {
     information.PublicAssistanceFraudTwoOrMoreStates: [],
     information.TransferredPropertyToGetBenefits: [],
 }
+
+requirements = {
+    **snap_general_info,
+    **snap_earned_income_info,
+    **snap_unearned_income_info,
+    **snap_resource_info,
+    **snap_expense_info,
+    **snap_other_info,
+    **snap_compliance_info,
+}

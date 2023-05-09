@@ -184,3 +184,10 @@ childcare_rationale_info = {
         documents.CommunityOrganizationStatement,
     ],
 }
+
+requirements = {
+    **childcare_general_info,
+    **childcare_earned_income_info,
+    **childcare_unearned_income_info,
+    **childcare_rationale_info,
+}
