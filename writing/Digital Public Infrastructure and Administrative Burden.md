@@ -31,6 +31,11 @@ We argue that technology can help fundamentally reduce or eliminate burdens for 
 * Centralizing administration and operations gives greater leverage for technical improvements.
 
 ## Audit of NYC benefits and services
+This report focuses on service delivery in New York City, though the lessons can be applied broadly to government-administered programs. New York City administers or facilitates access to a mix of federal, state, and locally-funded or managed programs. These differences in administering agencies and jurisdictions across programs provide a valuable case study in the real-world complexities of managing information, processes, and service delivery across disjoint technical, legal, and operational domains.
+
+New York City also provides an interesting case study because it has made significant technical investments in expanding access to public assistance programs.
+TODO: Add details on past and ongoing NYC efforts.
+
 * A birds-eye view of e.g. HRA, housing, other core benefits and services systems. What is the life cycle of resident's data across programs? What are the processes and technologies involved at each step?
 	* See: Local Law 60 Report, Local Law 75 Report
 		* Should have been updated yearly since, but no clear updates online.
