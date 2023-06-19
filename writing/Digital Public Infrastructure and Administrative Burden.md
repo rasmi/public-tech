@@ -384,6 +384,12 @@ In the Public Assistant example above, information extraction would be possible 
 	* Tools that can map information from specific documents (e.g. tax returns) to standard schema for each program.
 		* Requires a map from application information requirement, to information field, to the source of information (e.g. a common document or the applicant.)
 
+### Transparency & oversight
+* How can data use and sharing be managed transparently?
+* How can inequities, bias, and discrimination in both policy and implementation be more proactively identified and addressed?
+
+#### Failure modes
+
 ### Long-term development
 #### Building blocks of digital public infrastructure
 
@@ -391,12 +397,6 @@ In the Public Assistant example above, information extraction would be possible 
 * How can the needs of residents be centered in how agencies operate and are evaluated?
 	* E.g. CfA Safety Net Scorecard
 	* Comparison to current measures in Mayor's Management Report
-
-### Transparency & oversight
-* How can data use and sharing be managed transparently?
-* How can inequities, bias, and discrimination in both policy and implementation be more proactively identified and addressed?
-
-#### Failure modes
 
 ## Beyond administrative burden
 Even if we leverage technical tools to make the improvements described above, the biggest determinant of social outcomes is policy and implementation.
