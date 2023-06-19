@@ -9,7 +9,7 @@ Rasmi Elasmar
 	* Digital public infrastructure
 * Public benefits delivery is a high-leverage, high-impact area for improvement of community living standards. It can also be taken as a key litmus test of government’s ability to create or leverage technology to fulfill its core functions.
 
-## Technology and administrative burdens
+## Overview: Technology and administrative burdens
 Administrative burdens are inherent and abundant in government -- records must be kept and organized, information must be communicated and verified, and decisions must be made in accordance with policies and processes. As Herd and Moynihan argue, we as a society decide the magnitude of those burdens and who we obligate to shoulder them. Though burdens are primarily a result of political and administrative choices, technology plays a key role in exacerbating or alleviating burdens and shifting them from one actor to another.
 
 This report explores the relationship between technology and administrative burdens through the lens of public service delivery. In particular, we focus on key public assistance programs related to cash assistance, housing, food, education, and healthcare administered at the federal, state, and local levels. We narrow our focus to these programs because despite their importance and value to society, their underlying technical infrastructures are complex, unreliable, and do not center the needs of residents in their design and function. Improvements to these systems present an immense opportunity to relieve burdens and provide better support for the most vulnerable members of society.
@@ -40,7 +40,8 @@ TODO: Add details on past and ongoing NYC efforts.
 	* See: Local Law 60 Report, Local Law 75 Report
 		* Should have been updated yearly since, but no clear updates online.
 
-### Assessment
+### Assessment of existing services
+
 For each service, understand:
 * Administering jurisdiction. (federal, state, county, city)
 * Administering agency. (NY Office of Temporary and Disability Assistance, NYC Department of Social Services, etc.)
@@ -60,7 +61,7 @@ For each service, understand:
 * Legal framework(s) for privacy/data sharing, data governance.
 	* Existing and proposed data sharing agreements.
 
-### Information taxonomy
+#### Information taxonomy
 A detailed information taxonomy can be developed from the above questions and encoded programmatically. In theory, a complete taxonomy would include:
 * Which information is required for eligibility determination.
 * Which information is required for a complete application.
@@ -86,7 +87,9 @@ Questions we can answer with this model:
 * With additional baseline data, what outcomes can we expect in implementing certain integrations/interventions for each program?
 * What metrics can be computed given these integrations?
 
-## Challenges
+### Assessment of burdens
+
+## Challenges in service design
 Why hasn't this been done? What are the technical, operational, organizational, and other challenges associated with creating such infrastructure?
 
 By categorizing these challenges, we can consider which approaches may or may not be effective in addressing them.
@@ -110,7 +113,7 @@ By categorizing these challenges, we can consider which approaches may or may no
 * Essential facets of managing resident data that may be at odds with other goals (e.g. cross-agency data sharing)
 * Data sharing, ownership, consent, management, auditing, protection from unwanted access/abuse.
 
-### Key challenges
+### Summary of key challenges in service design
 * Sources of burden for residents: Learning costs, psychological costs, compliance costs, e.g.:
 	* People may not know what they are eligible for.
 	* Documents and requirements vary by program.
@@ -120,6 +123,7 @@ By categorizing these challenges, we can consider which approaches may or may no
 	* Informational definitions may be different even for similar-seeming questions (e.g. income) across programs.
 	* Enrollment in one benefit may affect or be contingent on enrollment for others.
 
+## Opportunities and interventions
 ### Existing approaches and ideas
 For each approach, outline:
 * Approach name
@@ -230,8 +234,8 @@ Format as a table?:
 		* Decreased staff labor due to assisted determination.
 
 
-## Opportunities
-### Resident-centered services
+
+### Designing resident-centered services
 * What changes can be made to more holistically provide benefits and services to residents, to design the experience primarily from the perspective of the resident rather than individual programs and departments?
 
 #### Proactive service delivery
@@ -359,7 +363,7 @@ In order for these tasks to be facilitated by software, the information requirem
 
 In the Public Assistant example above, information extraction would be possible on-device (e.g. a "digital wallet") or even through a centralized service (e.g. a "digital locker") such that information could come from any number of sources and be used for any program, regardless of the data source or program. For example, data could be extracted from uploaded documents, official APIs (such as from banks, other government agencies such as Departments of Labor or Taxation, or other programs), or even social workers or virtual agents making phone calls, writing e-mails, or browsing the web on behalf of a resident. Regardless of the source of the information, it would be organized into the resident's datastore and would be available for use as-needed and at their sole request. This model shifts the burden of information retrieval from the resident to automated tooling, and centralizes the necessary data under their ownership rather than across disparate agencies. In this sense, information gathering is a "pull" process for the resident, whereby much of the pulling of data from disparate sources can be automated, and application becomes a "push" process, whereby a resident simply needs to consent to specific data being shared with an agency once needed for validation and verification purposes. Because the data models and eligibility rules live on-device (or in some other service distinct from any one agency), an application's completeness and potential eligibility can be determined before any data is even submitted to the agency for processing. Additionally, if certain subsets of the information were cryptographically signed and could be verified to have come from a specific source, on-device rules could provide zero-knowledge proof of compliance with certain eligibility criteria without needing to submit specific information to the administering agency at all. Alternatively, the agency could "pull" the necessary information from the original sources, or even verify high-level compliance with specific criteria without needing or accessing the underlying information itself (e.g. verifying that income falls within a certain range, or that someone was recently unemployed, or that someone requires certain health assistance).
 
-### System components
+#### System components
 
 * **Service Guide**
 	* Can guide individuals through discovery and application process given relevant context about their lives.
@@ -392,6 +396,8 @@ In the Public Assistant example above, information extraction would be possible 
 ### Transparency & oversight
 * How can data use and sharing be managed transparently?
 * How can inequities, bias, and discrimination in both policy and implementation be more proactively identified and addressed?
+
+#### Failure modes
 
 ## Beyond administrative burden
 Even if we leverage technical tools to make the improvements described above, the biggest determinant of social outcomes is policy and implementation.
