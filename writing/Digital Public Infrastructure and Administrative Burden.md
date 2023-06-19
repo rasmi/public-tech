@@ -359,6 +359,27 @@ In order for these tasks to be facilitated by software, the information requirem
 
 In the Public Assistant example above, information extraction would be possible on-device (e.g. a "digital wallet") or even through a centralized service (e.g. a "digital locker") such that information could come from any number of sources and be used for any program, regardless of the data source or program. For example, data could be extracted from uploaded documents, official APIs (such as from banks, other government agencies such as Departments of Labor or Taxation, or other programs), or even social workers or virtual agents making phone calls, writing e-mails, or browsing the web on behalf of a resident. Regardless of the source of the information, it would be organized into the resident's datastore and would be available for use as-needed and at their sole request. This model shifts the burden of information retrieval from the resident to automated tooling, and centralizes the necessary data under their ownership rather than across disparate agencies. In this sense, information gathering is a "pull" process for the resident, whereby much of the pulling of data from disparate sources can be automated, and application becomes a "push" process, whereby a resident simply needs to consent to specific data being shared with an agency once needed for validation and verification purposes. Because the data models and eligibility rules live on-device (or in some other service distinct from any one agency), an application's completeness and potential eligibility can be determined before any data is even submitted to the agency for processing. Additionally, if certain subsets of the information were cryptographically signed and could be verified to have come from a specific source, on-device rules could provide zero-knowledge proof of compliance with certain eligibility criteria without needing to submit specific information to the administering agency at all. Alternatively, the agency could "pull" the necessary information from the original sources, or even verify high-level compliance with specific criteria without needing or accessing the underlying information itself (e.g. verifying that income falls within a certain range, or that someone was recently unemployed, or that someone requires certain health assistance).
 
+### System components
+
+* **Service Guide**
+	* Can guide individuals through discovery and application process given relevant context about their lives.
+	* Implementation details:
+		* Can function passively "in the background" to provide support proactively as circumstances change (e.g. job change, family change, health change, finance change).
+		* Can also engage directly via natural language or other interfaces.
+		* Interfaces with Information Manager to gather information as necessary throughout the process.
+		* Interfaces with Rules Engine to ensure validity of eligibility screening and other rule or policy-based information.
+		* Relies on LLM + contextual information provided (e.g. administration guides, website data).
+* **Information Manager**
+	* Can gather and organize information from various sources (e.g. documents, bank accounts, phone calls, third-party platforms/APIs) to map to standardized information taxonomy.
+	* Implementation details:
+		* Can be stored on-device or in a managed service (end-to-end encrypted).
+		* Integrates with e.g. passkeys for authentication.
+* **Rules engine**
+	* Provides assessment of e.g. eligibility, application completeness, other qualifying/disqualifying conditions.
+	* Implementation details:
+		*  Interfaces with Service Guide to provide information grounded in formal/rules-based reasoning.
+		* Interfaces with Information Manager to understand which information is necessary based on programs surfaced via Service Guide.
+		* Publicly auditable, gives clear indications of what criteria are or aren't met and why.
 
 ### Long-term development
 #### Building blocks of digital public infrastructure
