@@ -27,7 +27,7 @@ We argue that technology can help fundamentally reduce or eliminate burdens for 
 	* organizing documents/recordkeeping
 	* managing processes
 	* reducing toil
-* These programs are costly to administer and accesss for governments and residents. Technical improvements readily justify themselves if they sufficiently reduce burdens or expand access.
+* These programs are costly to administer and access for governments and residents. Technical improvements readily justify themselves if they sufficiently reduce burdens or expand access.
 * Centralizing administration and operations gives greater leverage for technical improvements.
 
 ## Audit of NYC benefits and services
