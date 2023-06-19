@@ -41,6 +41,7 @@ TODO: Add details on past and ongoing NYC efforts.
 		* Should have been updated yearly since, but no clear updates online.
 
 ### Assessment of existing services
+In order to identify areas for opportunity across the delivery of these services, we map their current state in detail.
 
 For each service, understand:
 * Administering jurisdiction. (federal, state, county, city)
