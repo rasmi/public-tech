@@ -250,21 +250,6 @@ Format as a table?:
 	* Pre-assessing likely procedural denials
 	* Holistic intake and assessment of needs rather than program-by-program.
 
-#### Models for shared data
-* Centrally managed by a single agency, accessible by many as needed
-	* e.g. shared "folder" of files that can be used across programs.
-		* [Nava PBC with State of Vermont](https://www.navapbc.com/case-studies/integrating-eligibility-enrollment-software)
-		* [My File NYC](https://www.nyc.gov/site/opportunity/portfolio/my-file-nyc.page)
-* Distributed across agencies, conforming to a standard, unified as-needed
-	* Mechanisms for affirmative consent from resident to share specific data for a given use.
-	* Mechanisms for government oversight to ensure no misuse.
-* Individuals as data-holders (or unifiers/conduits, pulling and sharing data as needed)
-	* Zero-knowledge verification
-* Unified data schema
-	* Enables rules-as-code, proactive outreach, unified applications, information re-use.
-	* Tools that can map information from specific documents (e.g. tax returns) to standard schema for each program.
-		* Requires a map from application information requirement, to information field, to the source of information (e.g. a common document or the applicant.)
-
 ### A framework for shifting burdens
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
 
@@ -383,6 +368,21 @@ In the Public Assistant example above, information extraction would be possible 
 		*  Interfaces with Service Guide to provide information grounded in formal/rules-based reasoning.
 		* Interfaces with Information Manager to understand which information is necessary based on programs surfaced via Service Guide.
 		* Publicly auditable, gives clear indications of what criteria are or aren't met and why.
+
+#### Models for shared data
+* Centrally managed by a single agency, accessible by many as needed
+	* e.g. shared "folder" of files that can be used across programs.
+		* [Nava PBC with State of Vermont](https://www.navapbc.com/case-studies/integrating-eligibility-enrollment-software)
+		* [My File NYC](https://www.nyc.gov/site/opportunity/portfolio/my-file-nyc.page)
+* Distributed across agencies, conforming to a standard, unified as-needed
+	* Mechanisms for affirmative consent from resident to share specific data for a given use.
+	* Mechanisms for government oversight to ensure no misuse.
+* Individuals as data-holders (or unifiers/conduits, pulling and sharing data as needed)
+	* Zero-knowledge verification
+* Unified data schema
+	* Enables rules-as-code, proactive outreach, unified applications, information re-use.
+	* Tools that can map information from specific documents (e.g. tax returns) to standard schema for each program.
+		* Requires a map from application information requirement, to information field, to the source of information (e.g. a common document or the applicant.)
 
 ### Long-term development
 #### Building blocks of digital public infrastructure
