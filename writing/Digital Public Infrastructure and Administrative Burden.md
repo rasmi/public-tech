@@ -396,14 +396,14 @@ In the Public Assistant example above, information extraction would be possible 
 ## Beyond administrative burden
 Even if we leverage technical tools to make the improvements described above, the biggest determinant of social outcomes is policy and implementation.
 
-### Towards a universal safety net
-*  Burden is on government to identify and reach potentially eligible residents. Likely eligibility determined via rules-as-code, leading to proactive outreach and enrollment.
-* Universal benefits linkage: Any one condition triggers eligibility for all other programs if desired (or, no means-testing, e.g. universal school food programs, universal healthcare).
-* Application and approval completed via zero-knowledge proof(?).
-* Enrollment and renewal happen as desired by resident, burden is on government to disprove need (possibly retroactively, with no consequences for resident).
-
 ### Limitations of technology
 See:
 * [Leverage Points: Places to Intervene in a System](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)
 * Reformist reforms vs. non-reformist reforms
 * Roles for Computing in Social Change
+
+### Towards a universal safety net
+*  Burden is on government to identify and reach potentially eligible residents. Likely eligibility determined via rules-as-code, leading to proactive outreach and enrollment.
+* Universal benefits linkage: Any one condition triggers eligibility for all other programs if desired (or, no means-testing, e.g. universal school food programs, universal healthcare).
+* Application and approval completed via zero-knowledge proof(?).
+* Enrollment and renewal happen as desired by resident, burden is on government to disprove need (possibly retroactively, with no consequences for resident).
