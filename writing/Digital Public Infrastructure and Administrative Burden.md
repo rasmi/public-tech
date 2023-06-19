@@ -124,8 +124,8 @@ By categorizing these challenges, we can consider which approaches may or may no
 	* Informational definitions may be different even for similar-seeming questions (e.g. income) across programs.
 	* Enrollment in one benefit may affect or be contingent on enrollment for others.
 
-## Opportunities and interventions
-### Existing approaches and ideas
+
+## Existing approaches and ideas
 For each approach, outline:
 * Approach name
 	* A brief definition
@@ -234,8 +234,7 @@ Format as a table?:
 		* Increased enrollment due to eligibility screening.
 		* Decreased staff labor due to assisted determination.
 
-
-
+## Opportunities and interventions
 ### Designing resident-centered services
 * What changes can be made to more holistically provide benefits and services to residents, to design the experience primarily from the perspective of the resident rather than individual programs and departments?
 
