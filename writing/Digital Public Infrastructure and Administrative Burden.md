@@ -234,11 +234,10 @@ Format as a table?:
 		* Increased enrollment due to eligibility screening.
 		* Decreased staff labor due to assisted determination.
 
-## Opportunities and interventions
-### Designing resident-centered services
+## Opportunities for resident-centered services
 * What changes can be made to more holistically provide benefits and services to residents, to design the experience primarily from the perspective of the resident rather than individual programs and departments?
 
-#### Proactive service delivery
+### Proactive service delivery
 * What changes could be implemented to shift as much of the burden of delivery onto government as possible? How can these changes be implemented?
 	* Rules-as-code for automatic enrollment and renewal
 	* Data standardization and sharing across agencies rather than requiring individuals to submit information.
@@ -266,7 +265,7 @@ Format as a table?:
 	* Tools that can map information from specific documents (e.g. tax returns) to standard schema for each program.
 		* Requires a map from application information requirement, to information field, to the source of information (e.g. a common document or the applicant.)
 
-### Strategies for shifting burdens
+### A framework for shifting burdens
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
 
 Actors & actions:
