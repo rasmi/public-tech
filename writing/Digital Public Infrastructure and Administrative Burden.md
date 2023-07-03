@@ -89,11 +89,12 @@ Questions we can answer with this model:
 * What metrics can be computed given these integrations?
 
 ### Assessment of burdens
+This analysis of NYC services adds to an existing body of work that assesses administrative burdens through journey and systems mapping.
 
-## Challenges in service design
+## Challenges in civic service design
+The design and implementation of these services directly shapes their associated burdens and who bears them by default. These burdens are well-known to residents, program staff, and policymakers, yet they persist despite broad motivation to address them. Service design and implementation is complex and multifaceted, and there are many challenges associated with seemingly obvious solutions. We place service design challenges into three categories: Organizational, Operational, and Technical.  By categorizing these challenges, we can consider which practical approaches may or may not be effective in addressing them.
+
 Why hasn't this been done? What are the technical, operational, organizational, and other challenges associated with creating such infrastructure?
-
-By categorizing these challenges, we can consider which approaches may or may not be effective in addressing them.
 
 ### Operational challenges
 * Challenges related to how programs are designed, implemented, and administered (and the role technology plays in each phase). Determined primarily by policy and administrative decisionmaking in the broader context of each organization/program.
@@ -126,6 +127,8 @@ By categorizing these challenges, we can consider which approaches may or may no
 
 
 ## Existing approaches and ideas
+In recent years, significant progress has been made in developing and implementing strategies to reduce burdens for applicants. Key tools and strategies are summarized here.
+
 For each approach, outline:
 * Approach name
 	* A brief definition
@@ -235,6 +238,9 @@ Format as a table?:
 		* Decreased staff labor due to assisted determination.
 
 ## Opportunities for resident-centered services
+
+While these strategies are each useful individually, together they form a powerful set of tools for minimizing burdens. At their core, they address burdens all across the applicant and staff journeys in service delivery. The remainder of this report details a vision for reducing burdens by pushing these strategies to their limits. Independent of existing tools, processes, and infrastructure, what would a service delivery experience look like when designed primarily around the needs of residents?
+
 * What changes can be made to more holistically provide benefits and services to residents, to design the experience primarily from the perspective of the resident rather than individual programs and departments?
 
 ### Proactive service delivery
