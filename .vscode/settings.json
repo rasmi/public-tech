@@ -1,5 +1,11 @@
 {
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
-  "python.formatting.provider": "black"
+  "python.formatting.provider": "black",
+  "tailwindCSS.experimental.configFile": {
+    "process-map/tailwind.config.js": "process-map/src/**"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
 }
