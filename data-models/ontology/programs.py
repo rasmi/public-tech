@@ -31,16 +31,16 @@ def generate_requirements_graph(program):
                 to prove each piece of information.
         edges: Edges indicate which information requires which documents.
     """
-    nodes = set()
-    edges = set()
+    nodes = []
+    edges = []
 
-    nodes.add(program)
+    nodes.append((program, {"type": "program"}))
 
     for info, docs in program.requirements.items():
-        nodes.add(info)
-        edges.add((program, info))
+        nodes.append((info, {"type": "information"}))
+        edges.append((program, info))
         for doc in docs:
-            nodes.add(doc)
-            edges.add((info, doc))
+            nodes.append((doc, {"type": "document"}))
+            edges.append((info, doc))
 
     return nodes, edges

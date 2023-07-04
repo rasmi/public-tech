@@ -25,11 +25,20 @@ def generate_programs_graph(programs_list):
 
 def graph_to_json(graph):
     """Convert a NetworkX graph to json."""
-    nodes = [{"id": node.__name__} for node in graph.nodes()]
+    nodes = [
+        {"id": nodetype.__name__, "data": {"label": nodetype.__name__, **nodedata}}
+        for nodetype, nodedata in graph.nodes.data()
+    ]
     edges = [
-        {"source": edge[0].__name__, "target": edge[1].__name__}
+        {
+            "source": edge[0].__name__,
+            "target": edge[1].__name__,
+            "id": f"{edge[0].__name__}->{edge[1].__name__}",
+        }
         for edge in graph.edges()
     ]
+
+    nodes = sorted(nodes, key=lambda node: node["data"]["type"])
     return {"nodes": nodes, "edges": edges}
 
 
