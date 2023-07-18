@@ -30,70 +30,6 @@ We argue that technology can help fundamentally reduce or eliminate burdens for 
 * These programs are costly to administer and access for governments and residents. Technical improvements readily justify themselves if they sufficiently reduce burdens or expand access.
 * Centralizing administration and operations gives greater leverage for technical improvements.
 
-## Audit of NYC benefits and services
-This report focuses on service delivery in New York City, though the lessons can be applied broadly to government-administered programs. New York City administers or facilitates access to a mix of federal, state, and locally-funded or managed programs. These differences in administering agencies and jurisdictions across programs provide a valuable case study in the real-world complexities of managing information, processes, and service delivery across disjoint technical, legal, and operational domains.
-
-New York City also provides an interesting case study because it has made significant technical investments in expanding access to public assistance programs.
-TODO: Add details on past and ongoing NYC efforts.
-
-* A birds-eye view of e.g. HRA, housing, other core benefits and services systems. What is the life cycle of resident's data across programs? What are the processes and technologies involved at each step?
-	* See: Local Law 60 Report, Local Law 75 Report
-		* Should have been updated yearly since, but no clear updates online.
-
-### Assessment of existing services
-In order to identify areas for opportunity across the delivery of these services, we map their current state in detail.
-
-#### Key service details
-For each service, understand:
-* Administering jurisdiction. (federal, state, county, city)
-* Administering agency. (NY Office of Temporary and Disability Assistance, NYC Department of Social Services, etc.)
-* Key resident-facing entrypoints. (AccessNYC, NY MyBenefits, in-person offices, community-based organizations, etc.)
-* High-level journey/process.
-
-#### Additional service details
-* Underlying data systems
-	* In-house vs. 3rd party
-		* If 3P, what software?
-		* If in-house, who develops/maintains?
-	* API, data export, interoperability, etc. functionality of data systems.
-	* Existing or planned integrations with other data systems.
-* Program information requirements
-	* What is required for eligibility determination?
-	* What is required to apply?
-	* Attempt at a detailed schema/definitions.
-	* Proposed simplified schema/definitions.
-* Legal framework(s) for privacy/data sharing, data governance.
-	* Existing and proposed data sharing agreements.
-
-#### Information taxonomy
-A detailed information taxonomy can be developed from the above questions and encoded programmatically. In theory, a complete taxonomy would include:
-* Which information is required for eligibility determination.
-* Which information is required for a complete application.
-* The semantic meanings or precise definitons of each piece of information, which would allow that information to be mapped to or from other fields. 
-* The original sources of each piece of information, whether from commonly availabe documents or from an applicant's inherent knowledge.
-* Any secondary sources of information, such as other data systems where this information may be stored.
-* The shareability of the information across programs based on the legal and technical constraints of its primary or secondary sources.
-
-Layers:
-* Semantic -- literal meanings/definitions of pieces of information. Can be mapped on a program-by-program level and across programs. Relationships between pieces of information can be mapped (e.g. birthdate -> age)
-* Dataset -- literal data sources/tables/fields and their associated metadata. Relationships between data sources/tables can be mapped directly to represent complete schemas and possible combinations of information that can transform/map to semantic definitions.
-* Legal/organizational -- Metadata about which datasets/fields exist under which programs/jurisdictions/data-sharing agreements, which can be used to assess the feasibility of sharing data across programs/applications. Stick to dataset-level permissions for now rather than field-level.
-
-Questions we can answer with this model:
-* Which data systems need to be integrated to enable <proactive outreach,pre-approval,benefits linkage> for each program?
-* Where are two-way integrations possible? Where are one-way integrations necessary?
-* What information can be transformed/mapped across programs at which stages of the application process?
-* Which data integrations are a technical challenge, which are organizational/legal? What are the opportunities and limitations of technical interventions?
-* To what extent can proactive outreach/pre-approval/benefits linkage be automated for each program? What informational or administrative requirements will still require manual effort on behalf of applicants or program staff?
-* Which documents or other sources of information are the minimum necessary for eligibility/application for each program?
-* What additional technologies might be useful for different programs (e.g. information extraction from documents)
-* To what extent can rules-as-code be useful for eligibility determination / application approval for each program?
-* With additional baseline data, what outcomes can we expect in implementing certain integrations/interventions for each program?
-* What metrics can be computed given these integrations?
-
-### Assessment of burdens
-This analysis of NYC services adds to an existing body of work that assesses administrative burdens through journey and systems mapping. Based on an archetypal journey through the process, we can identify key burdens and their underlying causes.
-
 ## Challenges in civic service design
 The design and implementation of these services directly shapes their associated burdens and who bears them by default. These burdens are well-known to residents, program staff, and policymakers, yet they persist despite broad motivation to address them. Service design and implementation is complex and multifaceted, and there are many challenges associated with seemingly obvious solutions. We place service design challenges into three categories: Organizational, Operational, and Technical.  By categorizing these challenges, we can consider which practical approaches may or may not be effective in addressing them.
 
@@ -421,3 +357,70 @@ See:
 * Universal benefits linkage: Any one condition triggers eligibility for all other programs if desired (or, no means-testing, e.g. universal school food programs, universal healthcare).
 * Application and approval completed via zero-knowledge proof(?).
 * Enrollment and renewal happen as desired by resident, burden is on government to disprove need (possibly retroactively, with no consequences for resident).
+
+---
+# Appendix
+
+## Audit of NYC benefits and services
+This report focuses on service delivery in New York City, though the lessons can be applied broadly to government-administered programs. New York City administers or facilitates access to a mix of federal, state, and locally-funded or managed programs. These differences in administering agencies and jurisdictions across programs provide a valuable case study in the real-world complexities of managing information, processes, and service delivery across disjoint technical, legal, and operational domains.
+
+New York City also provides an interesting case study because it has made significant technical investments in expanding access to public assistance programs.
+TODO: Add details on past and ongoing NYC efforts.
+
+* A birds-eye view of e.g. HRA, housing, other core benefits and services systems. What is the life cycle of resident's data across programs? What are the processes and technologies involved at each step?
+	* See: Local Law 60 Report, Local Law 75 Report
+		* Should have been updated yearly since, but no clear updates online.
+
+### Assessment of existing services
+In order to identify areas for opportunity across the delivery of these services, we map their current state in detail.
+
+#### Key service details
+For each service, understand:
+* Administering jurisdiction. (federal, state, county, city)
+* Administering agency. (NY Office of Temporary and Disability Assistance, NYC Department of Social Services, etc.)
+* Key resident-facing entrypoints. (AccessNYC, NY MyBenefits, in-person offices, community-based organizations, etc.)
+* High-level journey/process.
+
+#### Additional service details
+* Underlying data systems
+	* In-house vs. 3rd party
+		* If 3P, what software?
+		* If in-house, who develops/maintains?
+	* API, data export, interoperability, etc. functionality of data systems.
+	* Existing or planned integrations with other data systems.
+* Program information requirements
+	* What is required for eligibility determination?
+	* What is required to apply?
+	* Attempt at a detailed schema/definitions.
+	* Proposed simplified schema/definitions.
+* Legal framework(s) for privacy/data sharing, data governance.
+	* Existing and proposed data sharing agreements.
+
+#### Information taxonomy
+A detailed information taxonomy can be developed from the above questions and encoded programmatically. In theory, a complete taxonomy would include:
+* Which information is required for eligibility determination.
+* Which information is required for a complete application.
+* The semantic meanings or precise definitons of each piece of information, which would allow that information to be mapped to or from other fields. 
+* The original sources of each piece of information, whether from commonly availabe documents or from an applicant's inherent knowledge.
+* Any secondary sources of information, such as other data systems where this information may be stored.
+* The shareability of the information across programs based on the legal and technical constraints of its primary or secondary sources.
+
+Layers:
+* Semantic -- literal meanings/definitions of pieces of information. Can be mapped on a program-by-program level and across programs. Relationships between pieces of information can be mapped (e.g. birthdate -> age)
+* Dataset -- literal data sources/tables/fields and their associated metadata. Relationships between data sources/tables can be mapped directly to represent complete schemas and possible combinations of information that can transform/map to semantic definitions.
+* Legal/organizational -- Metadata about which datasets/fields exist under which programs/jurisdictions/data-sharing agreements, which can be used to assess the feasibility of sharing data across programs/applications. Stick to dataset-level permissions for now rather than field-level.
+
+Questions we can answer with this model:
+* Which data systems need to be integrated to enable <proactive outreach,pre-approval,benefits linkage> for each program?
+* Where are two-way integrations possible? Where are one-way integrations necessary?
+* What information can be transformed/mapped across programs at which stages of the application process?
+* Which data integrations are a technical challenge, which are organizational/legal? What are the opportunities and limitations of technical interventions?
+* To what extent can proactive outreach/pre-approval/benefits linkage be automated for each program? What informational or administrative requirements will still require manual effort on behalf of applicants or program staff?
+* Which documents or other sources of information are the minimum necessary for eligibility/application for each program?
+* What additional technologies might be useful for different programs (e.g. information extraction from documents)
+* To what extent can rules-as-code be useful for eligibility determination / application approval for each program?
+* With additional baseline data, what outcomes can we expect in implementing certain integrations/interventions for each program?
+* What metrics can be computed given these integrations?
+
+### Assessment of burdens
+This analysis of NYC services adds to an existing body of work that assesses administrative burdens through journey and systems mapping. Based on an archetypal journey through the process, we can identify key burdens and their underlying causes.
