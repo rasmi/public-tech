@@ -74,6 +74,79 @@ Why hasn't this been done? What are the technical, operational, organizational, 
 	* Informational definitions may be different even for similar-seeming questions (e.g. income) across programs.
 	* Enrollment in one benefit may affect or be contingent on enrollment for others.
 
+## A framework for shifting burdens
+Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
+
+Actors & actions:
+* Resident
+	* Identify available resources
+	* Understand eligibility
+	* Understand application requirements
+	* Gather information
+	* Submit application(s)
+	* Receive benefits
+	* Understand renewal process
+	* Submit renewal information
+* CBO
+	* Determine relevant resources
+	* Determine possible eligiblity for various resources
+	* Support gathering of information
+	* Support completion of application(s)
+	* Support renewal
+* Program staff
+	* Determine relevant resources
+	* Determine possible eligiblity for various resources
+	* Receive applications
+	* Process applications
+	* Follow up for additional information
+	* Conduct interview
+	* Make final determinations
+	* Approve/Deny and notify
+	* Disburse benefits
+* Program administrator
+	* Enforce eligibility requirements
+	* Decide processes within limits of requirements.
+* Policymaker
+	* Decide eligibility requirements
+	* Decide legal/privacy requirements
+	* Decide operational requirements
+	* Decide desired outcomes / evaluation criteria
+	* Decide resources/funding/investments
+* Technical system
+	* Present information
+	* Store documents
+	* Store resident information
+	* Transform or re-map resident information
+	* Notify
+	* Automate process
+	* Rules-based eligibility determination
+	* Simulate outcomes of policy change
+
+Intervention:
+* Simplify process
+* Automate process
+* Introduce process
+* Remove process
+* Shift process
+
+Outcome:
+* Increase/Decrease access
+* Increase/Decrease labor
+* Increase/Decrease time
+* Increase/Decrease costs
+
+#### Technical levers
+##### Automate processes
+##### Share application information
+##### Enable eligibility determination
+
+#### Scenarios
+1. No policy/operation change, build tech to minimize burdens at each step.
+	* Covering up / abstracting away an inherently broken and messy set of tools and processes with technology.
+2. No policy change, enable operational + technical change.
+	* Can minimize process burdens, facilitate with technology.
+3. Policy + operation + technical change.
+	* Can simplify + unify program requirements, minimize process burdens, facilitate with technology.
 
 ## Existing approaches and ideas
 In recent years, significant progress has been made in developing and implementing strategies to reduce burdens for applicants. Key tools and strategies are summarized here.
@@ -200,79 +273,6 @@ While these strategies are each useful individually, together they form a powerf
 	* Pre-assessing likely procedural denials
 	* Holistic intake and assessment of needs rather than program-by-program.
 
-### A framework for shifting burdens
-Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
-
-Actors & actions:
-* Resident
-	* Identify available resources
-	* Understand eligibility
-	* Understand application requirements
-	* Gather information
-	* Submit application(s)
-	* Receive benefits
-	* Understand renewal process
-	* Submit renewal information
-* CBO
-	* Determine relevant resources
-	* Determine possible eligiblity for various resources
-	* Support gathering of information
-	* Support completion of application(s)
-	* Support renewal
-* Program staff
-	* Determine relevant resources
-	* Determine possible eligiblity for various resources
-	* Receive applications
-	* Process applications
-	* Follow up for additional information
-	* Conduct interview
-	* Make final determinations
-	* Approve/Deny and notify
-	* Disburse benefits
-* Program administrator
-	* Enforce eligibility requirements
-	* Decide processes within limits of requirements.
-* Policymaker
-	* Decide eligibility requirements
-	* Decide legal/privacy requirements
-	* Decide operational requirements
-	* Decide desired outcomes / evaluation criteria
-	* Decide resources/funding/investments
-* Technical system
-	* Present information
-	* Store documents
-	* Store resident information
-	* Transform or re-map resident information
-	* Notify
-	* Automate process
-	* Rules-based eligibility determination
-	* Simulate outcomes of policy change
-
-Intervention:
-* Simplify process
-* Automate process
-* Introduce process
-* Remove process
-* Shift process
-
-Outcome:
-* Increase/Decrease access
-* Increase/Decrease labor
-* Increase/Decrease time
-* Increase/Decrease costs
-
-#### Technical levers
-##### Automate processes
-##### Share application information
-##### Enable eligibility determination
-
-#### Scenarios
-1. No policy/operation change, build tech to minimize burdens at each step.
-	* Covering up / abstracting away an inherently broken and messy set of tools and processes with technology.
-2. No policy change, enable operational + technical change.
-	* Can minimize process burdens, facilitate with technology.
-3. Policy + operation + technical change.
-	* Can simplify + unify program requirements, minimize process burdens, facilitate with technology.
 
 ### Strategies for information management
 Information management is central to the task of administering public services. Residents bear the learning costs associated with knowing about a program's existence, assessing its potential utility, and understanding its requirements and associated processes. Residents also bear the compliance costs of filling out applications and putting together the necessary documentation in order to prove they meet the program's criteria and renew their enrollment regularly.
