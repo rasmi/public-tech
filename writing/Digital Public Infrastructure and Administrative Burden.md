@@ -9,7 +9,6 @@ Rasmi Elasmar
 	* Digital public infrastructure
 * Public benefits delivery is a high-leverage, high-impact area for improvement of community living standards. It can also be taken as a key litmus test of government’s ability to create or leverage technology to fulfill its core functions.
 
-## Overview: Technology and administrative burdens
 Administrative burdens are inherent and abundant in government -- records must be kept and organized, information must be communicated and verified, and decisions must be made in accordance with policies and processes. As Herd and Moynihan argue, we as a society decide the magnitude of those burdens and who we obligate to shoulder them. Though burdens are primarily a result of political and administrative choices, technology plays a key role in exacerbating or alleviating burdens and shifting them from one actor to another.
 
 This report explores the relationship between technology and administrative burdens through the lens of public service delivery. In particular, we focus on key public assistance programs related to cash assistance, housing, food, education, and healthcare administered at the federal, state, and local levels. We narrow our focus to these programs because despite their importance and value to society, their underlying technical infrastructures are complex, unreliable, and do not center the needs of residents in their design and function. Improvements to these systems present an immense opportunity to relieve burdens and provide better support for the most vulnerable members of society.
@@ -29,6 +28,11 @@ We argue that technology can help fundamentally reduce or eliminate burdens for 
 	* reducing toil
 * These programs are costly to administer and access for governments and residents. Technical improvements readily justify themselves if they sufficiently reduce burdens or expand access.
 * Centralizing administration and operations gives greater leverage for technical improvements.
+
+## Overview: Technology and administrative burdens
+### Common burdens and who bears them
+### Underlying causes of burdens
+#### Policy, service design, and service delivery
 
 ## Challenges in civic service design
 The design and implementation of these services directly shapes their associated burdens and who bears them by default. These burdens are well-known to residents, program staff, and policymakers, yet they persist despite broad motivation to address them. Service design and implementation is complex and multifaceted, and there are many challenges associated with seemingly obvious solutions.
