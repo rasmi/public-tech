@@ -43,11 +43,14 @@ TODO: Add details on past and ongoing NYC efforts.
 ### Assessment of existing services
 In order to identify areas for opportunity across the delivery of these services, we map their current state in detail.
 
+#### Key service details
 For each service, understand:
 * Administering jurisdiction. (federal, state, county, city)
 * Administering agency. (NY Office of Temporary and Disability Assistance, NYC Department of Social Services, etc.)
 * Key resident-facing entrypoints. (AccessNYC, NY MyBenefits, in-person offices, community-based organizations, etc.)
 * High-level journey/process.
+
+#### Additional service details
 * Underlying data systems
 	* In-house vs. 3rd party
 		* If 3P, what software?
@@ -89,7 +92,7 @@ Questions we can answer with this model:
 * What metrics can be computed given these integrations?
 
 ### Assessment of burdens
-This analysis of NYC services adds to an existing body of work that assesses administrative burdens through journey and systems mapping.
+This analysis of NYC services adds to an existing body of work that assesses administrative burdens through journey and systems mapping. Based on an archetypal journey through the process, we can identify key burdens and their underlying causes.
 
 ## Challenges in civic service design
 The design and implementation of these services directly shapes their associated burdens and who bears them by default. These burdens are well-known to residents, program staff, and policymakers, yet they persist despite broad motivation to address them. Service design and implementation is complex and multifaceted, and there are many challenges associated with seemingly obvious solutions. We place service design challenges into three categories: Organizational, Operational, and Technical.  By categorizing these challenges, we can consider which practical approaches may or may not be effective in addressing them.
