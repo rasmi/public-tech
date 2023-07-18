@@ -32,36 +32,39 @@ We argue that technology can help fundamentally reduce or eliminate burdens for 
 ## Overview: Technology and administrative burdens
 ### Common burdens and who bears them
 ### Underlying causes of burdens
-#### Policy, service design, and service delivery
 
-## Challenges in civic service design
+## Why addressing burdens is hard
+### Policy, service design, and service delivery
+Policy dictates legal requirements, which constrains the design of services, which constrains the delivery of services.
+
+### Challenges in civic service design
 The design and implementation of these services directly shapes their associated burdens and who bears them by default. These burdens are well-known to residents, program staff, and policymakers, yet they persist despite broad motivation to address them. Service design and implementation is complex and multifaceted, and there are many challenges associated with seemingly obvious solutions.
 
-## Challenges in service delivery
+### Challenges in service delivery
 We place service delivery challenges into three categories: Organizational, Operational, and Technical.  By categorizing these challenges, we can consider which practical approaches may or may not be effective in addressing them.
 
 Why hasn't this been done? What are the technical, operational, organizational, and other challenges associated with creating such infrastructure?
 
-### Operational challenges
+#### Operational challenges
 * Challenges related to how programs are designed, implemented, and administered (and the role technology plays in each phase). Determined primarily by policy and administrative decisionmaking in the broader context of each organization/program.
 * e.g. process changes, policy requirements, legal requirements, etc. 
 * These can be remedied by strong executive/administrative decisionmaking and/or policy changes (it is generally a deliberate choice that can be readily modified).
 
-### Organizational challenges
+#### Organizational challenges
 * Challenges within and across programs related to enacting technical/operational change. Determined primarily by political priorities and concerns, conflicting requirements/needs/incentives, resource constraints, capacity, ability.
 * e.g. political will to change, resources necessary to change, technical skill and capacity, procurement challenges
 * These may require long-term changes, additional resources, restructuring of incentives, political or organizational will, and capacity development.
 
-### Technical challenges
+#### Technical challenges
 * Challenges directly related to technical feasibility or implementation. 
 * e.g. specific tool interoperability, data management, existence/availability of technology, usability/accessibility of technology, and complexity of technology.
 * These problems can be remedied in part by the development of better technologies.
 
-### Security & privacy needs
+#### Security & privacy needs
 * Essential facets of managing resident data that may be at odds with other goals (e.g. cross-agency data sharing)
 * Data sharing, ownership, consent, management, auditing, protection from unwanted access/abuse.
 
-### Summary of key challenges in service design
+### Summary of key challenges in service design & delivery
 * Sources of burden for residents: Learning costs, psychological costs, compliance costs, e.g.:
 	* People may not know what they are eligible for.
 	* Documents and requirements vary by program.
