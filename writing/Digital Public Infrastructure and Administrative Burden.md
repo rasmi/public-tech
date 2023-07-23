@@ -31,6 +31,10 @@ We argue that technology can help fundamentally reduce or eliminate burdens for 
 
 ## Overview: Technology and administrative burdens
 ### Common burdens and who bears them
+The variety of burdens in public benefits access are well-documented. For the purposes of this analysis, we leverage a 2016 report from USDS that maps user journeys in applying to key federally-administered benefits. Additionally, a 2018 report from GSA's Customer Experience Center of Excellence provides a similar mapping for USDA Direct Farm Loans. Consolidating these and other analyses reveals the common burdens documented below.
+
+[TODO]: Interactive journey map screenshot.
+
 ### Underlying causes of burdens
 
 ## Why addressing burdens is hard
