@@ -323,11 +323,34 @@ In the Public Assistant example above, information extraction would be possible 
 		* Interfaces with Information Manager to understand which information is necessary based on programs surfaced via Service Guide.
 		* Publicly auditable, gives clear indications of what criteria are or aren't met and why.
 
-#### Models for shared data
+#### Models for managing shared data
+Current models of information management place much of the burden of gathering and organizing information on applicants. This information is collected from various sources either physically (e.g. a paystub, a photo ID) or digitally (e.g. a PDF of a recent utility bill), then processed either physically through paper or digitally through scans and the manual entry of information into digital application forms.
+
+Importantly, much of this information already exists across the many digital systems that we interact with day to day. The burden placed on an individual is in finding this information, accessing it, mapping it to the necessary information requirements for a given program, digitizing it or printing it, and submitting it as part of an application. If these tasks could be managed by technology, these burdens can be shifted away from applicants to either the technology itself or program staff who are assisted by this technology.
+
+Given the sensitive nature of much of this information, it is essential to ensure strong access controls and clear indicators of how data may be accessed and used for a given task. We propose the following models for managing shared data.
+
+##### Distributed: Shared organization-to-organization as needed
+
+##### Data hub: Centrally hosted, centrally managed
+
+##### Digital locker: Centrally hosted, personally managed
+A digital locker is an information store that is managed centrally, enabling individual agencies to integrate directly with it as needed. Examples include [My File NYC](https://www.nyc.gov/site/opportunity/portfolio/my-file-nyc.page), the State of Vermont's [Document Uploader](https://info.healthconnect.vermont.gov/how-apply/document-uploader) tool, and [Kiip](https://www.kiipco.com/). Each of these tools enables applicants to upload documents, allowing program staff across agencies and processes to access them.
+
+##### Digital wallet: Personally hosted, personally managed
+A digital wallet is similar to a digital locker, except the information store is managed by each individual rather than a central organization. In this model, the information only ever leaves the individual's control once it is submitted to a given agency for processing.
+
+##### Organizing information from many sources
+
+##### Beyond files: the opportunity and importance of normalized data
+
+##### Affirmative consent in data sharing
+
 * Centrally managed by a single agency, accessible by many as needed
 	* e.g. shared "folder" of files that can be used across programs.
 		* [Nava PBC with State of Vermont](https://www.navapbc.com/case-studies/integrating-eligibility-enrollment-software)
 		* [My File NYC](https://www.nyc.gov/site/opportunity/portfolio/my-file-nyc.page)
+		* [Kiip](https://www.kiipco.com/)
 * Distributed across agencies, conforming to a standard, unified as-needed
 	* Mechanisms for affirmative consent from resident to share specific data for a given use.
 	* Mechanisms for government oversight to ensure no misuse.
@@ -337,6 +360,10 @@ In the Public Assistant example above, information extraction would be possible 
 	* Enables rules-as-code, proactive outreach, unified applications, information re-use.
 	* Tools that can map information from specific documents (e.g. tax returns) to standard schema for each program.
 		* Requires a map from application information requirement, to information field, to the source of information (e.g. a common document or the applicant.)
+* Different strategies can be used together
+* Enabled by having a standard schema/taxonomy
+* Information addition patterns
+* Information access patterns
 
 ### Transparency & oversight
 * How can data use and sharing be managed transparently?
