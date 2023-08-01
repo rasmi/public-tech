@@ -331,20 +331,28 @@ Importantly, much of this information already exists across the many digital sys
 Given the sensitive nature of much of this information, it is essential to ensure strong access controls and clear indicators of how data may be accessed and used for a given task. We propose the following models for managing shared data.
 
 ##### Distributed: Shared organization-to-organization as needed
+In a distributed model, sharing is done ad-hoc between organizations when opportunities to do so arise. For example, two agencies with similar enrollment criteria may choose to share lists of enrollees to identify individuals who are known to be eligible for a service but are not yet enrolled and can be targeted for outreach. Similarly, if a housing program accepts enrollment in a food program as proof that an individual meets the necessary criteria for enrollment, those two programs may directly share enrollment information to negate the need for other more burdensome forms of proof. Programs may also interface with third-party organizations such as banks, utility companies, or employers to verify other relevant information.
+
+In this model, there is no complete or unified view of a person's information in any one place -- information is pulled from different sources as needed for specific purposes. Importantly, this type of data sharing does not need to involve the applicant in the storage or transmission of data, aside from gathering appropriate consent (see section below). Such approaches require each agency to implement specific data sharing agreements and direct integrations with each data provider and consumer.
+
+See "[Data Sharing to Build Effective and Efficient Benefits Systems](https://bdtrust.org/data-sharing-to-build-effective-and-efficient-benefits-systems_january-2023.pdf)".
 
 ##### Data hub: Centrally hosted, centrally managed
+A Data Hub extends the distributed model by consolidating records in one place. In this model, a central information store acts as a broker that provides a unified view into a person's information. Many agencies may integrate with the Hub, both contributing information to it and pulling information from it depending on the specific needs and policies of a given program. Similarly, a Data Hub can pull information from various third-party sources and consolidate them in a single data store for programs to access as needed. In this model, it is still necessary for the Hub to integrate with each data consumer or provider, but in this case, the information itself is more readily normalized and consumed by agencies due to the centralized nature of the Hub. Because applicants do not have direct control over their information in the Data Hub, data governance is dictated through privacy policies and agreements with individual agencies and providers.
 
 ##### Digital locker: Centrally hosted, personally managed
-A digital locker is an information store that is managed centrally, enabling individual agencies to integrate directly with it as needed. Examples include [My File NYC](https://www.nyc.gov/site/opportunity/portfolio/my-file-nyc.page), the State of Vermont's [Document Uploader](https://info.healthconnect.vermont.gov/how-apply/document-uploader) tool, and [Kiip](https://www.kiipco.com/). Each of these tools enables applicants to upload documents, allowing program staff across agencies and processes to access them.
+A digital locker is an information store that is managed centrally, enabling individual agencies to integrate directly with it as needed, with information being shared in a context-dependent way at the discretion of each individual applicant. Examples include [My File NYC](https://www.nyc.gov/site/opportunity/portfolio/my-file-nyc.page), the State of Vermont's [Document Uploader](https://info.healthconnect.vermont.gov/how-apply/document-uploader) tool, and [Kiip](https://www.kiipco.com/). Each of these tools enables applicants to upload documents, allowing program staff across different agencies and processes to access them. As opposed to the Data Hub model, a digital locker gives individuals direct control over how their data is accessed. Importantly, the data is still stored centrally to enable simple integration and access across programs, but no information can leave the system without the direct consent of the applicant.
 
 ##### Digital wallet: Personally hosted, personally managed
-A digital wallet is similar to a digital locker, except the information store is managed by each individual rather than a central organization. In this model, the information only ever leaves the individual's control once it is submitted to a given agency for processing.
+A digital wallet is similar to a digital locker, except the information store is managed by each individual rather than a central organization. In this model, the information only ever leaves the individual's control once it is submitted to a given agency for processing. Past approaches to digital wallets have come with usability challenges; however, recent developments in consumer-facing authentication standards (e.g. webauthn and Passkeys) may make such approaches more user-friendly.
 
 ##### Organizing information from many sources
 
 ##### Beyond files: the opportunity and importance of normalized data
 
 ##### Affirmative consent in data sharing
+
+##### Prviacy-preserving verification
 
 * Centrally managed by a single agency, accessible by many as needed
 	* e.g. shared "folder" of files that can be used across programs.
