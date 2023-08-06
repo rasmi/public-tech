@@ -41,6 +41,11 @@ The variety of burdens in public benefits access are well-documented. For the pu
 ### Policy, service design, and service delivery
 Policy dictates legal requirements, which constrains the design of services, which constrains the delivery of services.
 
+* Policy: Dictates the goals of the program, along with requirements.
+* Service design: A plan for how the program *should* be delivered.
+* Service delivery: The practical implementation of how the program is administered and delivered.
+
+Policy spells out the requirements. Design plans for who shoulders the burdens. Delivery decides who shoulders the burdens.
 ### Challenges in civic service design
 The design and implementation of these services directly shapes their associated burdens and who bears them by default. These burdens are well-known to residents, program staff, and policymakers, yet they persist despite broad motivation to address them. Service design and implementation is complex and multifaceted, and there are many challenges associated with seemingly obvious solutions.
 
