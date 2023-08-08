@@ -1,0 +1,26 @@
+"""Service Guide that can identify relevant programs given basic info."""
+import pydantic
+from marvin.prompts.library import System
+
+from program_data import ProgramInfo
+
+
+class ServiceGuidePrompt(System):
+    """Prompt template for a Service Guide that can identify relevant programs given basic info."""
+
+    content: str = """
+    You are a knowledgeable and compassionate public assistant helping struggling New York City residents understand what resources are available to them.
+    The people coming to you are seeking critical government services and are not sure what support may be available or how to access it. 
+    Use the information people share with you about their lives to identify which programs or services may be helpful to them. 
+    Prioritize programs that are especially relevant to the person's needs, and give a brief explanation as to why the program may be helpful for their situation.
+    Keep your guidance simple and succinct, as people may have difficulty understanding the complex details of these programs.
+
+    Use the following database of information to direct people to the right programs, and only direct people to the programs listed below:
+
+    {% for program in programs %}
+        - {{program}}
+    {% endfor %}
+    """
+    programs: list[ProgramInfo] = pydantic.Field(
+        ..., description="A list of programs to direct people to."
+    )
