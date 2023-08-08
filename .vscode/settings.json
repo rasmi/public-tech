@@ -1,7 +1,8 @@
 {
-  "python.linting.pylintEnabled": true,
-  "python.linting.enabled": true,
-  "python.formatting.provider": "black",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
   "tailwindCSS.experimental.configFile": {
     "process-map/tailwind.config.js": "process-map/src/**"
   },
