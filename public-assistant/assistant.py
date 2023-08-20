@@ -1,6 +1,9 @@
 """A helpful public assistant."""
 import program_data
 import service_guide
+import information_requirements
+import information_manager
+
 import simpleaichat
 
 
@@ -13,6 +16,23 @@ def run_service_guide():
     response = guide(
         "I am a single mother of two and I just lost my job.",
         output_schema=service_guide.RelevantPrograms,
+    )
+    print(response)
+
+
+def run_information_manager():
+    """Example run of the information manager."""
+    snap_requirements = information_requirements.load_snap()
+    information_manager_prompt = information_manager.InformationManagerPrompt(
+        information_requirements_details=snap_requirements
+    )
+
+    info_manager = simpleaichat.AIChat(
+        model="gpt-4", system=information_manager_prompt.content
+    )
+    response = info_manager(
+        "Here is my driver's license.",
+        output_schema=information_manager.InformationCollection,
     )
     print(response)
 
