@@ -4,11 +4,8 @@ import service_guide
 import simpleaichat
 
 
-if __name__ == "__main__":
-    import dotenv
-
-    dotenv.load_dotenv()
-
+def run_service_guide():
+    """Example run of the service guide."""
     program_list = program_data.load_program_data().to_json(orient="records")
     service_guide_prompt = service_guide.ServiceGuidePrompt(program_list)
 
@@ -18,3 +15,9 @@ if __name__ == "__main__":
         output_schema=service_guide.RelevantPrograms,
     )
     print(response)
+
+
+if __name__ == "__main__":
+    import dotenv
+
+    dotenv.load_dotenv()
