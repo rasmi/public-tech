@@ -1,4 +1,6 @@
 """Service Guide that can identify relevant programs given basic info."""
+from pydantic import BaseModel
+from pydantic import Field
 
 
 class ServiceGuidePrompt:
@@ -42,3 +44,22 @@ class ServiceRecommenderPrompt:
 
     def __init__(self, program_details) -> None:
         self.content = self.template.format(program_details=program_details)
+
+
+class ProgramRecommendation(BaseModel):
+    """Program recommendation containing name of program and justification."""
+
+    program_name: str = Field(
+        description="Name of program from list of relevant programs."
+    )
+    justification: str = Field(
+        description="Brief justification for why this program is relevant."
+    )
+
+
+class RelevantPrograms(BaseModel):
+    """List of relevant programs."""
+
+    relevant_programs: list[ProgramRecommendation] = Field(
+        description="List of relevant programs."
+    )
