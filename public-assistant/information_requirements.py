@@ -9,8 +9,8 @@ import requests
 def load_snap() -> str:
     """Load SNAP info requirements from PDF guide into a markdown table."""
 
+    # pylint: disable-next=line-too-long
     snap_guide_url = "https://www.nyc.gov/assets/hra/downloads/pdf/services/accessibility/W-129G%20(E)%20SNAP%20Documentation%20Guide%20English%202015%20VERIFIED.pdf"
-
     snap_pdf = requests.get(snap_guide_url)
 
     with pdfplumber.open(io.BytesIO(snap_pdf.content)) as pdf:
