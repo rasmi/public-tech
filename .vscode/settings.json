@@ -9,5 +9,8 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "pylint.args": ["--extension-pkg-whitelist=pydantic"]
+  "pylint.args": [
+    "--extension-pkg-whitelist=pydantic",
+    "--disable=missing-timeout"
+  ]
 }
