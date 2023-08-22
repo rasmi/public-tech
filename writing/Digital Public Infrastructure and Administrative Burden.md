@@ -397,10 +397,29 @@ The combination of a private, personally-managed data store and a standardized o
 Even if we leverage technical tools to make the improvements described above, the biggest determinant of social outcomes is policy and implementation.
 
 ### Limitations of technology
+#### Normative assumptions in public benefits access
+Though technology can alleviate burdens residents face in accessing services, it should not excuse the existence of such burdens to begin with.
+
+As an extreme example, consider a set of increasingly complex and detailed eligibility requirements that must be met for a given program. Suppose that there is correspondingly capable technology, which can readily track all aspects of a person's life to assess whether or not they meet the necessary requirements. Though this technology addresses key learning and compliance costs associated with the process of benefits access, there are significant psychological and compliance costs associated with having the details of one's life be continuously monitored and potentially visible to others. The imposition of technology as the only mechanism through which a service's process can be readily navigated is itself a barrier, and is not a substitute for simply not creating the burdens to begin with.
+#### Tradeoffs in eligybility and accessibility
+Such complex requirements may be motivated by a desire to ensure that only "worthy" individuals receive public assistance, but come at the cost of reduced accessibility for every person eligible for assistance.
+
+Consider two axes: One which dictates the specific eligibility criteria of a given program, and another which reflects the actual accessibility of that program. The first axis is a theoretical threshold, where the letter of the policy is applied such that every person intended to be eligible for benefits receives them. The second axis is a practical reflection of reality -- given the design and implementation of the policy, how many people are actually able to access the program?
+
+Importantly, these axes are coupled. Imposing additional eligibility criteria on a given program decreases its accessibility (by design).
+
+In one corner, there are those who are both eligible and readily able to access the program. In the opposite corner, there are those who are ineligible and unable to access the program. In the upper right, there are those who are ineligible for the program but are still able to access it -- commonly considered fraud. And finally, in the lower left, there are those who are eligible but unable to access the program.
+
+In theory, adding additional eligibility criteria is a useful tool if one's primary motivating policy goal is to help those who "deserve" help without mistakenly allowing others to access the program. However, this comes at the cost of increasing burdens (and therefore reducing accessibility) for *everyone*, including those who are eligible.
+
+Much attention is given to reducing potential fraud in the upper-right box (i.e. the False Positive rate), ...
+TODO: Finish this section.
+
 See:
 * [Leverage Points: Places to Intervene in a System](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)
 * Reformist reforms vs. non-reformist reforms
 * Roles for Computing in Social Change
+* CARIN deservingness principles scale
 
 ### Towards a universal safety net
 *  Burden is on government to identify and reach potentially eligible residents. Likely eligibility determined via rules-as-code, leading to proactive outreach and enrollment.
