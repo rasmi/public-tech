@@ -37,7 +37,21 @@ The variety of burdens in public benefits access are well-documented. For the pu
 
 [TODO]: Interactive journey map screenshot.
 
-### Underlying causes of burdens
+### Key burdens and their underlying causes
+* Means-testing requires proof of income, resources, status, etc. -> documentation must be produced and managed
+* Programs are administered by separate jurisdictions and/or organizations
+	* New learning and compliance costs associated *with each program*.
+
+Burden:
+* Connect eligible residents to programs
+	* Resident learns what programs are available / what they are eligible for
+	* vs. Administrator identifies who is eligible and enrolls them / reaches out.
+* Verify eligibility and make determinations
+	* Resident gathers information, submits
+	* vs. Administrator gathers necessary info
+* Connect residents to all relevant programs based on their needs
+	* Resident must learn of *each program*
+	* vs. Administrator learns about resident and connects to programs.
 
 ## Why addressing burdens is hard
 ### Policy, service design, and service delivery
@@ -85,6 +99,8 @@ Why hasn't this been done? What are the technical, operational, organizational, 
 	* Informational definitions may be different even for similar-seeming questions (e.g. income) across programs.
 	* Enrollment in one benefit may affect or be contingent on enrollment for others.
 ## Part II: Strategies for improvement
+
+At each stage, burdens can be shifted upstream to either the administering agency, a third-party organization, or across all stages, technology.
 ## A framework for shifting burdens
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
 
