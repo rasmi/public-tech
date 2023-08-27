@@ -28,7 +28,7 @@ We argue that technology can help fundamentally reduce or eliminate burdens for 
 	* reducing toil
 * These programs are costly to administer and access for governments and residents. Technical improvements readily justify themselves if they sufficiently reduce burdens or expand access.
 * Centralizing administration and operations gives greater leverage for technical improvements.
-
+## Part I: The way things are
 ## Overview: Technology and administrative burdens
 ### Common burdens and who bears them
 The variety of burdens in public benefits access are well-documented. For the purposes of this analysis, we leverage a 2016 report from USDS that maps user journeys in applying to key federally-administered benefits. Additionally, a 2018 report from GSA's Customer Experience Center of Excellence provides a similar mapping for USDA Direct Farm Loans. Consolidating these and other analyses reveals the common burdens documented below.
@@ -82,7 +82,7 @@ Why hasn't this been done? What are the technical, operational, organizational, 
 	* The program requirements, processes, tools, technologies, etc. all may differ by program or organization.
 	* Informational definitions may be different even for similar-seeming questions (e.g. income) across programs.
 	* Enrollment in one benefit may affect or be contingent on enrollment for others.
-
+## Part II: Strategies for improvement
 ## A framework for shifting burdens
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
 
@@ -263,6 +263,7 @@ Other factors to explore:
 		* Increased enrollment due to eligibility screening.
 		* Decreased staff labor due to assisted determination.
 
+## Part III: An affirmative vision of technology in public benefits access
 ## Opportunities for resident-centered services
 
 While these strategies are each useful individually, together they form a powerful set of tools for minimizing burdens. At their core, they address burdens all across the applicant and staff journeys in service delivery. The remainder of this report details a vision for reducing burdens by pushing these strategies to their limits. Independent of existing tools, processes, and infrastructure, what would a service delivery experience look like when designed primarily around the needs of residents?
@@ -420,7 +421,7 @@ See:
 * Reformist reforms vs. non-reformist reforms
 * Roles for Computing in Social Change
 * CARIN deservingness principles scale
-
+## Conclusion
 ### Towards a universal safety net
 *  Burden is on government to identify and reach potentially eligible residents. Likely eligibility determined via rules-as-code, leading to proactive outreach and enrollment.
 * Universal benefits linkage: Any one condition triggers eligibility for all other programs if desired (or, no means-testing, e.g. universal school food programs, universal healthcare).
