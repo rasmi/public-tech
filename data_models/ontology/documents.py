@@ -1,8 +1,5 @@
 """Document types."""
-
-
-class Document:
-    pass
+from .models import Document
 
 
 class BenefitRecord(Document):

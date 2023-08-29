@@ -1,13 +1,7 @@
 """Program definitions."""
-
+from .models import Program
 from .program_requirements import snap
 from .program_requirements import childcare
-
-
-class Program:
-    """Representation of a program and its information requirements."""
-
-    requirements = {}
 
 
 class SNAP(Program):

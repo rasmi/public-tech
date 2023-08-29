@@ -1,8 +1,5 @@
 """Information types."""
-
-
-class Information:
-    pass
+from .models import Information
 
 
 class CitizenshipInformation(Information):
