@@ -4,6 +4,30 @@ import networkx as nx
 from ontology import programs
 
 
+def generate_requirements_graph(program):
+    """Generate a graph of the requirements for the program.
+
+    Returns:
+        nodes:
+            Nodes are information required by this program, and documents required
+                to prove each piece of information.
+        edges: Edges indicate which information requires which documents.
+    """
+    nodes = []
+    edges = []
+
+    nodes.append((program, {"type": "program"}))
+
+    for info, docs in program.requirements.items():
+        nodes.append((info, {"type": "information"}))
+        edges.append((program, info))
+        for doc in docs:
+            nodes.append((doc, {"type": "document"}))
+            edges.append((info, doc))
+
+    return nodes, edges
+
+
 def generate_programs_graph(programs_list):
     """Generate a NetworkX graph of all program requirements.
 
@@ -16,7 +40,7 @@ def generate_programs_graph(programs_list):
 
     G = nx.Graph()
     for program in programs_list:
-        program_nodes, program_edges = programs.generate_requirements_graph(program)
+        program_nodes, program_edges = generate_requirements_graph(program)
         G.add_nodes_from(program_nodes)
         G.add_edges_from(program_edges)
 
