@@ -405,10 +405,6 @@ class RentReceipt(Receipt, ResidenceDocument):
 # Relationship documents
 
 
-class AdoptionRecord(IdentityDocument, RelationshipDocument):
-    pass
-
-
 class DivorceRecord(RelationshipDocument):
     pass
 
