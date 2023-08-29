@@ -6,13 +6,9 @@ from pydantic import BaseModel
 class Document(BaseModel):
     """A document used to verify information."""
 
-    pass
-
 
 class Information(BaseModel):
     """A piece of information."""
-
-    pass
 
 
 class Program(BaseModel):
