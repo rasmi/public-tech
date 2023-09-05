@@ -22,7 +22,7 @@ def run_service_guide():
 
 def run_information_manager():
     """Example run of the information manager."""
-    snap_requirements = information_requirements.load_snap()
+    snap_requirements = information_requirements.load_snap_detailed()
     information_manager_prompt = information_manager.InformationManagerPrompt(
         information_requirements_details=snap_requirements
     )

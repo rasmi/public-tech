@@ -4,6 +4,7 @@ import io
 import pandas as pd
 import pdfplumber
 import requests
+from ontology.programs import SNAP
 
 
 def load_snap() -> str:
@@ -36,3 +37,15 @@ def load_snap() -> str:
     guide_markdown = guide_table.to_markdown(index=False)
 
     return guide_markdown
+
+
+def load_snap_detailed() -> str:
+    """Load SNAP info requirements from detailed ontology."""
+
+    snap_markdown = ""
+    for information, documents in SNAP().requirements.items():
+        snap_markdown += f"- {information}:\n"
+        for document in documents:
+            snap_markdown += f"  - {document}\n"
+
+    return snap_markdown
