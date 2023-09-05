@@ -172,6 +172,9 @@ Outcome:
 * Increase/Decrease time
 * Increase/Decrease costs
 
+See also O\*NET work activities:
+* [43-4061.00](https://www.onetonline.org/link/details/43-4061.00)  Eligibility Interviewers, Government Programs
+* [21-1093.00](https://www.onetonline.org/link/details/21-1093.00)  Social and Human Service Assistants
 #### Technical levers
 ##### Automate processes
 ##### Share application information
