@@ -101,6 +101,16 @@ Why hasn't this been done? What are the technical, operational, organizational, 
 ## Part II: Strategies for improvement
 
 At each stage, burdens can be shifted upstream to either the administering agency, a third-party organization, or across all stages, technology.
+
+Service design is the primary lever for shifting burdens, but technology can make shifts easier and also adjust the magnitude of burdens faced by people. It is a secondary lever operating within the realm of service design (as part of service delivery).
+
+Policy affects the total degree of burdens. Within that realm, service design/delivery (and technology) can decide where those burdens are shifted / who bears them. But the impact of technology is fundamentally limited by policy -- it can only mask the complexity of the underlying program. In this sense, technology does not increase or decrease the theoretical burden of policy, but it can increase or decrease the realized burden of service design (in service delivery).
+
+Increase vs. decrease burdens
+Towards residents vs. away from residents
+
+Extended analogy: policy decides the total weight carried. Service design plans for who carries what weight. Service delivery decides in practice who carries what weight. Technology can help residents/staff/others carry that weight (alleviating burdens), or it can make it harder for them (magnifying/exacerbating burdens).
+
 ## A framework for shifting burdens
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
 
