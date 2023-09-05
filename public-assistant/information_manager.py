@@ -2,6 +2,8 @@
 from pydantic import BaseModel
 from pydantic import Field
 
+from ontology.models import Document
+
 
 class InformationManagerPrompt:
     """Prompt template for an Information Manager."""
@@ -29,20 +31,25 @@ class InformationManagerPrompt:
 
 
 class InformationRequirement(BaseModel):
-    """A piece of required information and its relevant documentation."""
+    """A piece of required information and its required documentation."""
 
     information: str = Field(description="Information required.")
-    provided_documentation: str = Field(
-        description="Documentation provided to meet the requirement."
+    required_document_options: list[Document] = Field(
+        description="List of documents that can be used to prove this information."
+    )
+    # TODO: Manage this state programmatically rather than through GPT-4.
+    required_documents_provided: list[Document] = Field(
+        description="List of provided documents that prove this piece of information."
     )
 
 
 class InformationCollection(BaseModel):
     """A collection of information requirements to be satisfied."""
 
-    information_gathered: list[InformationRequirement] = Field(
-        description="A collection of information requirements already satisfied."
+    information_collection: list[InformationRequirement] = Field(
+        description="A list of information requirements necessary for a set of programs."
     )
-    information_still_needed: list[InformationRequirement] = Field(
-        description="A collection of information requirements that still need to be satisfied."
+    # TODO: Manage this state programmatically rather than through GPT-4.
+    documents_provided: list[Document] = Field(
+        description="List of provided documents."
     )
