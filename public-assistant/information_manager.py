@@ -15,7 +15,7 @@ class InformationManagerPrompt:
     Do your best to minimize the amount of documentation I need to provide by asking for documentation that can satisfy multiple requirements.
     Also choose documentation that would be relatively simple to access.
     Keep careful track of when a provided piece of documentation satisfies requirements for multiple pieces of information.
-    At each step, explain which information requirements have been satisfied and which still need documentation, as well as suggestions for what documentation can satisfy these requirements. 
+    At each step, explain which information requirements have been satisfied and which still need documentation, as well as suggestions for what documentation can satisfy these requirements.
 
     The information requirements table is here:
     {information_requirements_details}
