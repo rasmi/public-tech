@@ -11,7 +11,7 @@
   },
   "pylint.args": [
     "--extension-pkg-whitelist=pydantic",
-    "--disable=missing-timeout"
+    "--disable=missing-timeout,fixme"
   ],
   "pylint.importStrategy": "fromEnvironment",
   "python.analysis.extraPaths": ["./data_models"]
