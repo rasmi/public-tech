@@ -384,7 +384,10 @@ A digital wallet is similar to a digital locker, except the information store is
 The combination of a private, personally-managed data store and a standardized ontology of program-related information can shift the framing of how information is gathered and organized throughout the application process. Rather than view information as a set of documents that must be gathered, it can be seen as information about a person's life that exists across a disparate set of sources, which can be passively consolidated and organized under their control. That is, each person is obligated to have access to all digital information about themselves, regardless of the source. The ontology can be thought of as a universal "file" of details about the person that they manage, and this file can passively pull information from a variety of sources or push information to other individuals or organizations as desired.
 
 ###### Beyond files: the opportunity and importance of normalized data
-
+* Extract normalized data
+* Verify completeness
+* Automate completion via info-gathering
+* Automate verification via rules-as-code
 ##### Affirmative consent in data sharing
 
 ##### Privacy-preserving verification
