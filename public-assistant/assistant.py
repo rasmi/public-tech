@@ -35,6 +35,11 @@ def run_information_manager():
         output_schema=information_manager.InformationCollection,
     )
     print(response)
+    # Parse response back into Pydantic models.
+    # Note: Parsing back into specific Document subclasses is not yet supported.
+    # See https://github.com/pydantic/pydantic/discussions/7008
+    parsed_response = information_manager.InformationCollection.model_validate(response)
+    print(parsed_response)
 
 
 if __name__ == "__main__":
