@@ -43,10 +43,26 @@ The variety of administrative burdens in public benefits access are well-documen
 
 [TODO]: Interactive journey map screenshot.
 
-### Key burdens and their underlying causes
-* Means-testing requires proof of income, resources, status, etc. -> documentation must be produced and managed
+[TODO] Table 1.1 from *Administrative Burden*?
+
+First and foremost, individuals must understand which programs are available to them. Second, key public assistance programs in the US are means-tested, so individuals must understand and prove whether or not they are eligible for a given service. And finally, the individual must navigate and complete the application process to receive a final determination.
+### Causes and distribution of burdens
+Why do these burdens exist in the first place, and why are they distributed the way they are?
+
+Why do these burdens exist?
+
+* Means-testing
+	* Intention: Ensure societal resources are being allocated to those who need them most, and no one else.
+	* Mechanism: Requires proof of income, resources, status, etc.
+	* Burden: documentation must be produced and managed
 * Programs are administered by separate jurisdictions and/or organizations
-	* New learning and compliance costs associated *with each program*.
+	* Intention: Agencies specialize in their purpose
+	* Mechanism: Agencies are funded accordingly, administered at appropriate jurisdiction, staffed individually. Policies etc. are set from the perspective of each initiative/program/agency, not necessarily across programs and not from the resident's perspective.
+	* Burden: Different eligibility requirements, processes, application requirements. New learning and compliance costs associated *with each program*.
+* Onus is on individuals
+	* Political/moral choice intended to create good incentives for individuals and society.
+
+At each step, the onus is on individuals to seek, understand, prepare for, and apply for the assistance they need. What if burdens were distributed differently?
 
 Burden:
 * Connect eligible residents to programs
@@ -60,7 +76,11 @@ Burden:
 	* vs. Administrator learns about resident and connects to programs.
 
 ## Why addressing burdens is hard
+There is a growing understanding that burdens restrict access and create worse outcomes for individuals and communities. Yet, these issues persist despite broad recognition and a desire to address them. How are burdens created in practice, and what does it take to change them?
 ### Policy, service design, and service delivery
+
+Public assistance programs are implemented via policies at the federal, state, and local level. The implementation of the program is designed in part by the agency or jurisdiction responsible for it, taking into account policy as well as administrative goals. Finally, the program itself is *delivered* by the agency.
+
 Policy dictates legal requirements, which constrains the design of services, which constrains the delivery of services.
 
 * Policy: Dictates the goals of the program, along with requirements.
@@ -70,6 +90,10 @@ Policy dictates legal requirements, which constrains the design of services, whi
 Policy spells out the requirements. Design plans for who shoulders the burdens. Delivery decides who shoulders the burdens.
 ### Challenges in civic service design
 The design and implementation of these services directly shapes their associated burdens and who bears them by default. These burdens are well-known to residents, program staff, and policymakers, yet they persist despite broad motivation to address them. Service design and implementation is complex and multifaceted, and there are many challenges associated with seemingly obvious solutions.
+
+See above points on root causes, often stemming from policy.
+
+Design can be bad on purpose as well, as administrative burdens are constructed.
 
 ### Challenges in service delivery
 We place service delivery challenges into three categories: Organizational, Operational, and Technical.  By categorizing these challenges, we can consider which practical approaches may or may not be effective in addressing them.
