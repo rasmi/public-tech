@@ -39,7 +39,7 @@ Finally, we conclude with an affirmative vision of technology's role in facilita
 ## Part I: The way things are
 ## Overview: Technology and administrative burdens
 ### Common burdens and who bears them
-The variety of burdens in public benefits access are well-documented. For the purposes of this analysis, we leverage a 2016 report from USDS that maps user journeys in applying to key federally-administered benefits. Additionally, a 2018 report from GSA's Customer Experience Center of Excellence provides a similar mapping for USDA Direct Farm Loans. Consolidating these and other analyses reveals the common burdens documented below.
+The variety of administrative burdens in public benefits access are well-documented. For the purposes of this analysis, we leverage a 2016 report from USDS that maps user journeys in applying to key federally-administered benefits. Additionally, a 2018 report from GSA's Customer Experience Center of Excellence provides a similar mapping for USDA Direct Farm Loans. Consolidating these and other analyses reveals a pattern of burdens distributed across government staff, third-party organizations, and residents seeking assistance. .
 
 [TODO]: Interactive journey map screenshot.
 
