@@ -78,22 +78,23 @@ Burden:
 ## Why addressing burdens is hard
 There is a growing understanding that burdens restrict access and create worse outcomes for individuals and communities. Yet, these issues persist despite broad recognition and a desire to address them. How are burdens created in practice, and what does it take to change them?
 ### Policy, service design, and service delivery
+There are three key stages that decide how residents experience programs. First, public assistance programs are created via *policies* at the federal, state, and local level. Second, the implementation mechanisms of the program are *designed* by the agency or jurisdiction responsible for administering it, taking into account policy requirements as well as administrative goals. Finally, the program itself is *delivered* by the agency, manifesting the actual day-to-day experience residents have with the program.
 
-Public assistance programs are implemented via policies at the federal, state, and local level. The implementation of the program is designed in part by the agency or jurisdiction responsible for it, taking into account policy as well as administrative goals. Finally, the program itself is *delivered* by the agency.
-
-Policy dictates legal requirements, which constrains the design of services, which constrains the delivery of services.
+In this sense, the decisions made at each stage provide constraints on the decisions that come after -- policy dictates legal requirements, which constrains the design of services, which constrains the delivery of services. If policies outline the requirements of a program, service design represents a plan for how the program *should* be delivered, and service delivery is the realized outcome of how the program is *actually* delivered.
 
 * Policy: Dictates the goals of the program, along with requirements.
 * Service design: A plan for how the program *should* be delivered.
 * Service delivery: The practical implementation of how the program is administered and delivered.
 
-Policy spells out the requirements. Design plans for who shoulders the burdens. Delivery decides who shoulders the burdens.
+These constraints have direct consequences for the burdens residents face: Policy spells out the requirements, which inherently create or remove burdens. By defining processes and other implementation details, service design plans for who shoulders the burdens. And by turning the plan into action that people experience day-to-day, service delivery decides who shoulders the burdens in practice.
 ### Challenges in civic service design
 The design and implementation of these services directly shapes their associated burdens and who bears them by default. These burdens are well-known to residents, program staff, and policymakers, yet they persist despite broad motivation to address them. Service design and implementation is complex and multifaceted, and there are many challenges associated with seemingly obvious solutions.
 
 See above points on root causes, often stemming from policy.
 
 Design can be bad on purpose as well, as administrative burdens are constructed.
+
+Strong technical capacity can affect design (an agency can know what is or isn't possible, and plan to leverage technology to meet specific requirements/address burdens).
 
 ### Challenges in service delivery
 We place service delivery challenges into three categories: Organizational, Operational, and Technical.  By categorizing these challenges, we can consider which practical approaches may or may not be effective in addressing them.
