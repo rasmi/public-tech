@@ -59,7 +59,11 @@ The variety of administrative burdens in public benefits access are well-documen
 [TODO] Table 1.1 from *Administrative Burden*?
 
 First and foremost, individuals must understand which programs are available to them. Second, key public assistance programs in the US are means-tested, so individuals must understand and prove whether or not they are eligible for a given service. And finally, the individual must navigate and complete the application process to receive a final determination.
+
+At each step, individuals may encounter changing technical systems, processes, and requirements. While there are often organizations and professionals available to support individuals through these processes, there is still a significant degree of knowledge and labor necessary to facilitate access to these services.
 ### Causes and distribution of burdens
+In researching benefits access, a common refrain from individuals is "Why can't I just..." or "Why can't it just..." -- there is an overt difficulty involved with accomplishing things that seem like they should otherwise be simple. The experience feels unnecessarily hard, as if this can't possibly be the best way.
+
 Why do these burdens exist in the first place, and why are they distributed the way they are?
 
 Why do these burdens exist?
