@@ -23,6 +23,8 @@ Part II of this report proposes a framework for assessing technology's role in s
 Part III concludes this report with an affirmative vision of technology's role in facilitating public benefits access. By pushing technical interventions to their most optimistic conclusions, we can better understand the limits of technology in addressing broader challenges in public benefits access, as well as the risks associated with reliance on specific technologies.
 
 ---
+## Part I: The way things are
+## Overview: Technology and administrative burdens
 
 One in five New York City residents depend on the Supplemental Nutrition Assistance Program (SNAP) to get by. SNAP and other public assistance programs make it possible for families to weather crises, put food on the table, afford their rent, and escape poverty. For many residents, these safety net programs provide health and stability in a city where it is increasingly expensive to live and work.
 
@@ -51,8 +53,7 @@ Service delivery is fundamentally a test of society's ability to take care of it
 	* reducing toil
 * These programs are costly to administer and access for governments and residents. Technical improvements readily justify themselves if they sufficiently reduce burdens or expand access.
 * Centralizing administration and operations gives greater leverage for technical improvements.
-## Part I: The way things are
-## Overview: Technology and administrative burdens
+
 ### Common burdens and who bears them
 The variety of administrative burdens in public benefits access are well-documented. For the purposes of this analysis, we leverage a 2016 report from USDS that maps user journeys in applying to key federally-administered benefits. Additionally, a 2018 report from GSA's Customer Experience Center of Excellence provides a similar mapping for USDA Direct Farm Loans. Consolidating these and other analyses reveals a pattern of burdens distributed across government staff, third-party organizations, and residents seeking assistance.
 
