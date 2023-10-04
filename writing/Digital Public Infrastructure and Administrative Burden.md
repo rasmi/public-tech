@@ -10,7 +10,19 @@ Rasmi Elasmar
 * Public benefits delivery is a high-leverage, high-impact area for improvement of community living standards. It can also be taken as a key litmus test of government’s ability to create or leverage technology to fulfill its core functions.
 
 
-When government services break, people turn to technology. Broken websites, inaccessible forms, and complex processes are clear and visible signs of failure in digital service delivery. In the same breath, technology is framed as a potential solution to these same failures -- a new website, a new database, a new chatbot just might be the tools that save us. Technology has become central to how residents access public services at a time when more of them need help, and fewer of them are receiving it.
+When government services break, people turn to technology. Broken websites, inaccessible forms, and complex processes are telltale signs of failure in digital service delivery. In the same breath, technology is framed as an obvious solution to these issues -- a new website, a new database, a new chatbot just might be the tools that save us. Technology has become central to how residents access public services at a time when more of them need help, and fewer of them are receiving it.
+
+But how much can technology actually help? What role does it play in how administrative burdens are constructed and experienced? What would it take for technology to deliver on its many promises, and which ones will it struggle to live up to?
+
+This report explores the relationship between technology and administrative burdens through the lens of public service delivery. In particular, we focus on key public assistance programs related to cash assistance, housing, food, education, and healthcare administered at the federal, state, and local levels. We narrow our focus to these programs because despite their importance and value to society, their underlying technical infrastructures are complex, unreliable, and often fail to center the needs of residents in their design and function. Improvements to these systems present an immense opportunity to relieve burdens and provide better support for the most vulnerable members of society. At the same time, there are important limits to what technology can accomplish in the broader context of a complex and capacity-constrained public assistance system.
+
+Part I of this report gives an overview of common burdens, assessing why they exist, who bears them, and why they are difficult to address.
+
+Part II of this report proposes a framework for assessing technology's role in shifting burdens. We outline new and existing technical strategies for shifting burdens, with a focus on the capacity and tactics necessary for them to be effective in practice.
+
+Part III concludes this report with an affirmative vision of technology's role in facilitating public benefits access. By pushing technical interventions to their most optimistic conclusions, we can better understand the limits of technology in addressing broader challenges in public benefits access, as well as the risks associated with reliance on specific technologies.
+
+---
 
 One in five New York City residents depend on the Supplemental Nutrition Assistance Program (SNAP) to get by. SNAP and other public assistance programs make it possible for families to weather crises, put food on the table, afford their rent, and escape poverty. For many residents, these safety net programs provide health and stability in a city where it is increasingly expensive to live and work.
 
@@ -20,17 +32,11 @@ Despite the benefits these programs have on local communities, many of the city'
 
 Administrative burdens are inherent and abundant in government -- records must be kept and organized, information must be communicated and verified, and decisions must be made in accordance with policies and processes. As Herd and Moynihan argue, we as a society decide the magnitude of those burdens and who we obligate to shoulder them. Though burdens are primarily a result of political and administrative choices, technology plays a key role in exacerbating or alleviating burdens and shifting them from one actor to another.
 
-This report explores the relationship between technology and administrative burdens through the lens of public service delivery. In particular, we focus on key public assistance programs related to cash assistance, housing, food, education, and healthcare administered at the federal, state, and local levels. We narrow our focus to these programs because despite their importance and value to society, their underlying technical infrastructures are complex, unreliable, and often fail to center the needs of residents in their design and function. Improvements to these systems present an immense opportunity to relieve burdens and provide better support for the most vulnerable members of society.
-
 Core to accessing these programs are *learning costs* related to discovering the existence and potential value of these programs, understanding eligibility requirements and policy details, and understanding application requirements and processes. In addition, such programs may impose *compliance costs* associated with organizing and sharing required documents, managing information, and communicating with program staff. Finally, there are *psychological costs* associated with having one's life analyzed, being made to work through an arcane process, and having low agency over one's well-being.
-
-Part I of this report gives an overview of common burdens, assessing why they exist, who bears them, and why they are difficult to address.
-
-Part II of this report proposes a framework for assessing technology's role in shifting burdens. We outline new and existing technical strategies for shifting burdens, with a focus on what is necessary for them to be effective.
 
 We argue that technology can help fundamentally reduce or eliminate certain burdens for residents seeking public assistance by managing labor-intensive tasks such as information-gathering, information-sharing, communication, and process management. Conceptually, because the burdens of accessing and administering these programs are often rooted in information management, technology is well-suited to facilitate or automate these toilsome tasks. In addition, digitizing aspects of these burdens makes it easier to shift their associated costs away from residents and to governments or third parties. Because government agencies are central to the administration of these programs, they serve as a key leverage point where implementing technical interventions within agencies can scale the reach and effectiveness of reducing burdens across all actors in the system. Despite the systemic scale of these benefits, the necessary interventions can often be implemented with relatively low fixed costs to governments, making them highly cost-effective investments compared to the status quo of imposing these burdens on residents or third parties.
 
-Part III concludes this report with an affirmative vision of technology's role in facilitating public benefits access. By pushing technical interventions to their most optimistic conclusions, we can better understand the limits of technology in addressing broader challenges in public benefits access, as well as the risks associated with reliance on specific technologies.
+
 
 Service delivery is fundamentally a test of society's ability to take care of its most vulnerable members.
 
