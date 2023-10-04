@@ -66,20 +66,26 @@ In researching benefits access, a common refrain from individuals is "Why can't 
 
 Why do these burdens exist in the first place, and why are they distributed the way they are?
 
-Why do these burdens exist?
+The primary origin of these burdens is reliance on the practice of means-testing as the core mechanism for deciding who gets to access public assistance. This is at face value understandable -- these programs are funded by the public, and there are complicated and varied sentiments about who is deserving of what type of support. Means-testing is a way of turning these sentiments of "deservedness" into a set of processes that can be broadly administered by agency staff. The immediate consequence is an apparatus must be built to carry out this administration, and individuals must go to great lengths to prove that they meet the necessary criteria.
+
+A related factor is that the onus is placed on individuals to seek out assistance. The reasoning behind this is similarly political, and its implications similarly far-reaching.
+
+Finally, programs in the US are administered at the federal, state, and local levels. This is a natural consequence of federalism, but it has directly led to a fragmented system of administration, with differing requirements, funding mechanisms, processes, and underlying technical infrastructures. Individuals often have to start anew when seeking out additional assistance from a different agency or program, learning and navigating a new set of requirements, processes, and systems (despite them all coming from "the government"). Similarly, agencies must implement their own programs' processes and systems themselves (despite serving the same residents). By default, these programs will be designed and implemented in isolation of one another if no care is taken to act otherwise.
 
 * Means-testing
+	* Reason: Not everyone is seen as "worthy" of support given limited resources.
 	* Intention: Ensure societal resources are being allocated to those who need them most, and no one else.
 	* Mechanism: Requires proof of income, resources, status, etc.
 	* Burden: documentation must be produced and managed
 * Programs are administered by separate jurisdictions and/or organizations
+	* Reason: "The Government" is not a single entity, federalism in the US.
 	* Intention: Agencies specialize in their purpose
 	* Mechanism: Agencies are funded accordingly, administered at appropriate jurisdiction, staffed individually. Policies etc. are set from the perspective of each initiative/program/agency, not necessarily across programs and not from the resident's perspective.
 	* Burden: Different eligibility requirements, processes, application requirements. New learning and compliance costs associated *with each program*.
 * Onus is on individuals
 	* Political/moral choice intended to create good incentives for individuals and society.
 
-At each step, the onus is on individuals to seek, understand, prepare for, and apply for the assistance they need. What if burdens were distributed differently?
+These factors come together to place burdens squarely on residents. At each step, the onus is on individuals to seek, understand, prepare for, and apply for the assistance they need. What if burdens were distributed differently?
 
 Burden:
 * Connect eligible residents to programs
