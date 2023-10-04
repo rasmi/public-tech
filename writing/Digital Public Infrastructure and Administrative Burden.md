@@ -34,6 +34,7 @@ Administrative burdens are inherent and abundant in government -- records must b
 
 Core to accessing these programs are *learning costs* related to discovering the existence and potential value of these programs, understanding eligibility requirements and policy details, and understanding application requirements and processes. In addition, such programs may impose *compliance costs* associated with organizing and sharing required documents, managing information, and communicating with program staff. Finally, there are *psychological costs* associated with having one's life analyzed, being made to work through an arcane process, and having low agency over one's well-being.
 
+**Note**: This report assumes a good-faith origin of burdens -- we focus solely on burdens that arise from the basic logistics of administering programs meant to reach people in need. It is often the case that burdens are intentionally constructed to exclude individuals. Some of the strategies outlined in this report can just as well be applied (intentionally or unintentionally) to make access to services *more* difficult for people. It is the responsibility of policymakers and administrators to continue to center expansion of access to services in the course of their work.
 
 
 
