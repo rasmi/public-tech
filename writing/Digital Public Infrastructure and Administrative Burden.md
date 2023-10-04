@@ -169,6 +169,8 @@ Towards residents vs. away from residents
 Extended analogy: policy decides the total weight carried. Service design plans for who carries what weight. Service delivery decides in practice who carries what weight. Technology can help residents/staff/others carry that weight (alleviating burdens), or it can make it harder for them (magnifying/exacerbating burdens).
 
 ## A framework for shifting burdens
+How can these burdens be shifted away from residents? By understanding the key needs individuals have at different stages of service delivery, we can identify the work involved and understand whether or not it can be shifted upstream.
+
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
 
 Actors & actions:
