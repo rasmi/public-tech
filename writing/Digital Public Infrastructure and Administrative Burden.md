@@ -26,9 +26,7 @@ Part III concludes this report with an affirmative vision of technology's role i
 ## Part I: The way things are
 ## Overview: Technology and administrative burdens
 
-One in five New York City residents depend on the Supplemental Nutrition Assistance Program (SNAP) to get by. SNAP and other public assistance programs make it possible for families to weather crises, put food on the table, afford their rent, and escape poverty. For many residents, these safety net programs provide health and stability in a city where it is increasingly expensive to live and work.
-
--- They also support New York City's broader economy -- every dollar in SNAP benefits spent has a multiplicative effect on the local economy, supporting local businesses and their employees. --
+One in five New York City residents depend on the Supplemental Nutrition Assistance Program (SNAP) to get by. SNAP and other public assistance programs make it possible for families to weather crises, put food on the table, afford their rent, and escape poverty. For many residents, these safety net programs provide health and stability in a city where it is increasingly expensive to live and work. They also support New York City's broader economy -- every dollar in SNAP benefits spent has a multiplicative effect on the local economy, supporting local businesses and their employees.
 
 Despite the benefits these programs have on local communities, many of the city's most vulnerable residents are not being reached. New York City's Department of Social Services (DSS) estimates that only three quarters of eligible New York City residents are enrolled in SNAP, leaving over 600,000 eligible residents unenrolled and approximately $1 billion in unclaimed food benefits. For those who are able to access these services, the process of enrollment and renewal can be challenging, time-consuming, and demeaning. The *administrative burdens* residents face throughout these processes can make the difference in whether or not families can access food, housing, and healthcare.
 
