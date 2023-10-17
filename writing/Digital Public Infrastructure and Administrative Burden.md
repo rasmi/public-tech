@@ -67,7 +67,7 @@ In researching benefits access, a common refrain from individuals is "Why can't 
 
 Why do these burdens exist in the first place, and why are they distributed the way they are?
 
-The primary origin of these burdens is reliance on the practice of means-testing as the core mechanism for deciding who gets to access public assistance. This is at face value understandable -- these programs are funded by the public, and there are complicated and varied sentiments about who is deserving of what type of support. Means-testing is a way of turning these sentiments of "deservedness" into a set of processes that can be broadly administered by agency staff. The immediate consequence is an apparatus must be built to carry out this administration, and individuals must go to great lengths to prove that they meet the necessary criteria.
+The primary origin of these burdens is reliance on the practice of means-testing as the core mechanism for deciding who gets to access public assistance. This is at face value understandable -- these programs are funded by the public, and there are complicated and varied sentiments about who is deserving of what type of support. Means-testing is a way of turning these sentiments of "deservedness" into a set of requirements and processes that can be broadly administered by agency staff. The immediate consequence is an apparatus must be built to carry out this administration, and individuals must go to great lengths to prove that they meet the necessary criteria.
 
 A related factor is that the onus is placed on individuals to seek out assistance. The reasoning behind this is similarly political, and its implications similarly far-reaching.
 
