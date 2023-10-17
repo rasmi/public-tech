@@ -16,7 +16,7 @@ But how much can technology actually help? What role does it play in how adminis
 
 This report explores the relationship between technology and administrative burdens through the lens of public service delivery. In particular, we focus on key public assistance programs related to cash assistance, housing, food, education, and healthcare administered at the federal, state, and local levels. We narrow our focus to these programs because despite their importance and value to society, their underlying technical infrastructures are complex, unreliable, and often fail to center the needs of residents in their design and function. Improvements to these systems present an immense opportunity to relieve burdens and provide better support for the most vulnerable members of society. At the same time, there are important limits to what technology can accomplish in the broader context of a complex and capacity-constrained public assistance system.
 
-Part I of this report gives an overview of common burdens, assessing why they exist, who bears them, and why they are difficult to address.
+Part I of this report gives an overview of common burdens, assessing why they exist, who bears them, and why they are difficult to address. This is largely a review of existing literature, and provides motivation and grounding for the remainder of the report.
 
 Part II of this report proposes a framework for assessing technology's role in shifting burdens. We outline new and existing technical strategies for shifting burdens, with a focus on the capacity and tactics necessary for them to be effective in practice.
 
