@@ -1,3 +1,4 @@
+scratch*
 *.ipynb
 .env
 __pycache__
