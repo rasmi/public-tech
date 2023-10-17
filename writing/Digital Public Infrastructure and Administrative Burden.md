@@ -127,7 +127,7 @@ Design can be bad on purpose as well, as administrative burdens are constructed.
 Strong technical capacity can affect design (an agency can know what is or isn't possible, and plan to leverage technology to meet specific requirements/address burdens).
 
 ### Challenges in service delivery
-We place service delivery challenges into three categories: Organizational, Operational, and Technical.  By categorizing these challenges, we can consider which practical approaches may or may not be effective in addressing them.
+We place service delivery challenges into three categories: Organizational, Operational, and Technical.  By categorizing these challenges and their origins, we can consider which practical approaches may or may not be effective in addressing them.
 
 Why hasn't this been done? What are the technical, operational, organizational, and other challenges associated with creating such infrastructure?
 
