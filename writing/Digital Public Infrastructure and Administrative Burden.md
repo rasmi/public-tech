@@ -138,6 +138,7 @@ Why hasn't this been done? What are the technical, operational, organizational, 
 #### Operational challenges
 * Challenges related to how programs are designed, implemented, and administered (and the role technology plays in each phase). Determined primarily by policy and administrative decision-making in the broader context of each organization/program.
 * e.g. process changes, policy requirements, legal requirements, etc.
+	* "Because that's the process" "Because that's the policy"
 * These can be remedied by strong executive/administrative decision-making and/or policy changes (it is generally a deliberate choice that can be readily modified).
 
 #### Organizational challenges
