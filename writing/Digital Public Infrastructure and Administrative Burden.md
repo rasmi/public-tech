@@ -136,9 +136,9 @@ We place service delivery challenges into three categories: Organizational, Oper
 Why hasn't this been done? What are the technical, operational, organizational, and other challenges associated with creating such infrastructure?
 
 #### Operational challenges
-* Challenges related to how programs are designed, implemented, and administered (and the role technology plays in each phase). Determined primarily by policy and administrative decisionmaking in the broader context of each organization/program.
-* e.g. process changes, policy requirements, legal requirements, etc. 
-* These can be remedied by strong executive/administrative decisionmaking and/or policy changes (it is generally a deliberate choice that can be readily modified).
+* Challenges related to how programs are designed, implemented, and administered (and the role technology plays in each phase). Determined primarily by policy and administrative decision-making in the broader context of each organization/program.
+* e.g. process changes, policy requirements, legal requirements, etc.
+* These can be remedied by strong executive/administrative decision-making and/or policy changes (it is generally a deliberate choice that can be readily modified).
 
 #### Organizational challenges
 * Challenges within and across programs related to enacting technical/operational change. Determined primarily by political priorities and concerns, conflicting requirements/needs/incentives, resource constraints, capacity, ability.
