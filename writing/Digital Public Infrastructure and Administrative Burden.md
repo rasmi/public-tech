@@ -471,6 +471,8 @@ The combination of a private, personally-managed data store and a standardized o
 * Automate verification via rules-as-code
 ##### Affirmative consent in data sharing
 
+* See Nissenbaum
+
 ##### Privacy-preserving verification
 
 * Centrally managed by a single agency, accessible by many as needed
@@ -533,6 +535,7 @@ See:
 * Reformist reforms vs. non-reformist reforms
 * Roles for Computing in Social Change
 * CARIN deservingness principles scale
+* "Prediction value" of data (Parsons & Viljoen)
 ## Conclusion
 ### Towards a universal safety net
 *  Burden is on government to identify and reach potentially eligible residents. Likely eligibility determined via rules-as-code, leading to proactive outreach and enrollment.
