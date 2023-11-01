@@ -166,7 +166,7 @@ Why hasn't this been done? What are the technical, operational, organizational, 
 	* Enrollment in one benefit may affect or be contingent on enrollment for others.
 ## Part II: Strategies for improvement
 
-The delivery of public assistance programs relies on much more than just good technology, but the effective use of technology in the broader context of the program can make the difference between success and failure. Where can technology be most useful? What is necessary to make it so? Where is it not an appropriate solution? How can agencies think about how to best leverage technology in the delivery of their programs?
+The delivery of public assistance programs relies on much more than just good technology, but the ineffective use of technology is enough to ensure the failure of a program. Where can technology be most useful? What is necessary to make it so? Where is it not an appropriate solution? How can agencies think about how to best leverage technology in the delivery of their programs?
 
 To answer these questions, we assess new and existing technical strategies in terms of how they **shift** burdens. This approach centers the costs of burdens and helps clarify the potential benefits of implementing specific strategies, as well as the opportunity costs of leaving the burdens unaddressed. This framework allows decisionmakers to understand which factors are in their control, which approaches may be most effective in reducing burdens for residents, and what is necessary to successfully make those changes.
 
