@@ -174,6 +174,7 @@ We argue that technology can help fundamentally reduce or eliminate certain burd
 
 Because government agencies are central to the administration of these programs, they serve as a key leverage point where implementing technical interventions within agencies can scale the reach and effectiveness of reducing burdens across all actors in the system. Despite the systemic scale of these benefits, the necessary interventions can often be implemented with relatively low fixed costs to governments, making them highly cost-effective investments compared to the status quo of imposing these burdens on residents or third parties.
 
+## A framework for shifting burdens
 At each stage, burdens can be shifted upstream to either the administering agency, a third-party organization, or across all stages, technology.
 
 Service design is the primary lever for shifting burdens, but technology can make shifts easier and also adjust the magnitude of burdens faced by people. It is a secondary lever operating within the realm of service design (as part of service delivery).
@@ -185,7 +186,6 @@ Towards residents vs. away from residents
 
 Extended analogy: policy decides the total weight carried. Service design plans for who carries what weight. Service delivery decides in practice who carries what weight. Technology can help residents/staff/others carry that weight (alleviating burdens), or it can make it harder for them (magnifying/exacerbating burdens).
 
-## A framework for shifting burdens
 How can these burdens be shifted away from residents? By understanding the key needs individuals have at different stages of service delivery, we can identify the work involved and understand whether or not it can be shifted upstream.
 
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
