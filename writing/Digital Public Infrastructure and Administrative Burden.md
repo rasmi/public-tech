@@ -175,18 +175,20 @@ We argue that technology can help fundamentally reduce or eliminate certain burd
 Because government agencies are central to the administration of these programs, they serve as a key leverage point where implementing technical interventions within agencies can scale the reach and effectiveness of reducing burdens across all actors in the system. Despite the systemic scale of these benefits, the necessary interventions can often be implemented with relatively low fixed costs to governments, making them highly cost-effective investments compared to the status quo of imposing these burdens on residents or third parties.
 
 ## A framework for shifting burdens
-At each stage, burdens can be shifted upstream to either the administering agency, a third-party organization, or across all stages, technology.
+A burden is **shifted** when it becomes the responsibility of a different actor or organization involved in the end-to-end journey of accessing a program. At each stage, burdens can be shifted upstream (away from residents) to either the administering agency, a third-party organization, or across all stages, technology. This section details methods of shifting burdens away from residents, though burdens can also be shifted towards residents.
 
+Burdens can also be created and removed, as they are primarily the result of policy and administrative decisions. While policy affects the total degree of burdens, service design/delivery (and technology) can decide where those burdens are shifted and who bears them. But the impact of technology is fundamentally limited by policy -- it can only mask the complexity of the underlying program. In this sense, technology does not increase or decrease the inherent burden of policy, but it can increase or decrease the realized burden of service design (in service delivery).
+
+---
 Service design is the primary lever for shifting burdens, but technology can make shifts easier and also adjust the magnitude of burdens faced by people. It is a secondary lever operating within the realm of service design (as part of service delivery).
-
-Policy affects the total degree of burdens. Within that realm, service design/delivery (and technology) can decide where those burdens are shifted / who bears them. But the impact of technology is fundamentally limited by policy -- it can only mask the complexity of the underlying program. In this sense, technology does not increase or decrease the theoretical burden of policy, but it can increase or decrease the realized burden of service design (in service delivery).
 
 Increase vs. decrease burdens
 Towards residents vs. away from residents
 
 Extended analogy: policy decides the total weight carried. Service design plans for who carries what weight. Service delivery decides in practice who carries what weight. Technology can help residents/staff/others carry that weight (alleviating burdens), or it can make it harder for them (magnifying/exacerbating burdens).
 
-How can these burdens be shifted away from residents? By understanding the key needs individuals have at different stages of service delivery, we can identify the work involved and understand whether or not it can be shifted upstream.
+---
+How can these burdens be shifted away from residents? By understanding the key needs individuals have at different stages of service delivery, we can identify the work involved and understand whether or not that work can be shifted upstream.
 
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
 
