@@ -191,6 +191,16 @@ Extended analogy: policy decides the total weight carried. Service design plans 
 ---
 How can these burdens be shifted away from residents? By understanding the key needs individuals have at different stages of service delivery, we can identify the work involved and understand whether or not that work can be shifted upstream.
 
+We list the actions each actor currently takes throughout the end-to-end process of accessing or administering a program (detailed in Part I). Tasks that are common among actors are especially well-suited to be shifted away from residents, either upstream or to technology.
+
+We also note the nature of each task -- essential tasks are inherent to the challenge of providing assistance to the right individuals, regardless of the specific operational or administrative details. Imposed tasks are not directly related to providing or receiving  assistance, but are made necessary due to e.g. policy or other administrative choices. Finally, tertiary tasks are natural consequences of essential and imposed tasks -- for example, removing an imposed application process removes a tertiary task of uploading documents.
+
+All types of tasks may be made easier through technical strategies. Imposed and tertiary tasks are especially conducive to being removed or shifted (whether through policy, design, or delivery).
+
+Essential tasks -> understanding relevance of resources, distributing resources
+Imposed tasks -> navigating processes, applying, attending interviews, etc.
+Tertiary tasks -> Gather information, upload documents, fill out forms, etc.
+
 Summary/taxonomy of ways that burdens can be shifted, especially things that can be readily implemented.
 
 Actors & actions:
@@ -275,6 +285,7 @@ For each approach, outline:
 	* A brief definition
 		* Examples in theory or practice
 	* What issues it solves (in terms of administrative burden)
+		* Which specific actions are shifted to/from which actors.
 	* What issues it does not solve
 	* What is required to implement this approach
 
