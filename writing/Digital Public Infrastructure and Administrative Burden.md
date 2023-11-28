@@ -1,4 +1,4 @@
-# Digital Public Infrastructure and Administrative Burden
+# Technology and Administrative Burden
 Rasmi Elasmar
 
 ## Introduction
