@@ -24,8 +24,8 @@ Part II of this report proposes a framework for assessing technology's role in s
 Part III concludes this report with an affirmative vision of technology's role in facilitating public benefits access. By pushing technical interventions to their most optimistic conclusions, we can better understand the limits of technology in addressing broader challenges in public benefits access, as well as the risks associated with reliance on specific technologies.
 
 ---
-## Part I: The way things are
-## Overview: Technology and administrative burdens
+## Part I: The wicked problem of administrative burden
+## Overview: Administrative burdens in service delivery
 
 One in five New York City residents depend on the Supplemental Nutrition Assistance Program (SNAP) to get by. SNAP and other public assistance programs make it possible for families to weather crises, put food on the table, afford their rent, and escape poverty. For many residents, these safety net programs provide health and stability in a city where it is increasingly expensive to live and work. They also support New York City's broader economy -- every dollar in SNAP benefits spent has a multiplicative effect on the local economy, supporting local businesses and their employees.
 
@@ -165,7 +165,7 @@ Why hasn't this been done? What are the technical, operational, organizational, 
 	* The program requirements, processes, tools, technologies, etc. all may differ by program or organization.
 	* Informational definitions may be different even for similar-seeming questions (e.g. income) across programs.
 	* Enrollment in one benefit may affect or be contingent on enrollment for others.
-## Part II: Strategies for improvement
+## Part II: Strategies for addressing burdens
 
 The delivery of public assistance programs relies on much more than just good technology. Well-implemented technology is not enough to make a program succeed, but poorly-implemented technology is enough to make it fail. Given the complexities of service administration and delivery, where can technology be most useful? What is necessary to make it so? Where is it not an appropriate solution? How can agencies think about how to best leverage technology in the delivery of their programs?
 
@@ -385,7 +385,7 @@ Other factors to explore:
 		* Decreased staff labor due to assisted determination.
 
 ## Part III: An affirmative vision of technology in public benefits access
-## Opportunities for resident-centered services
+## What your country can do for you: Opportunities for resident-centered services
 
 While these strategies are each useful individually, together they form a powerful set of tools for minimizing burdens. At their core, they address burdens all across the applicant and staff journeys in service delivery. The remainder of this report details a vision for reducing burdens by pushing these strategies to their limits. Independent of existing tools, processes, and infrastructure, what would a service delivery experience look like when designed primarily around the needs of residents?
 
