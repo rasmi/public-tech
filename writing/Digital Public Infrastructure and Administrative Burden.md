@@ -405,12 +405,12 @@ While these strategies are each useful individually, together they form a powerf
 	* Holistic intake and assessment of needs rather than program-by-program.
 
 
-### Strategies for information management
-Information management is central to the task of administering public services. Residents bear the learning costs associated with knowing about a program's existence, assessing its potential utility, and understanding its requirements and associated processes. Residents also bear the compliance costs of filling out applications and putting together the necessary documentation in order to prove they meet the program's criteria and renew their enrollment regularly.
+### The burdens of information management
+Information management is central to the task of administering public services. As shown in Part II, much of the tasks associated with navigating benefits programs are related to understanding, gathering, or organizing information. Residents bear the learning costs associated with knowing about a program's existence, assessing its potential utility, and understanding its requirements and associated processes. Residents also bear the compliance costs of filling out applications and putting together the necessary documentation in order to prove they meet the program's criteria and renew their enrollment regularly.
 
 Social workers and CBOs are instrumental to supporting residents in navigating these processes. While their work is enabling in many ways, this type of support simply shifts burdens from one person to another and does not address the underlying causes of burdens or minimize the overall degree of burdens within the system. With the right process and technical interventions, a reduction of burdens would leave both residents and social workers with more time to engage in more differential pursuits.
 
-In order to lessen burdens related to information management, we identify specific activities that each actor must engage in throughout the process, and outline technical interventions that lessen or remove the need for those activities.
+In order to lessen burdens related to information management, we work through activities that each actor must engage in throughout the process, and outline technical interventions that lessen or remove the need for those activities.
 
 #### A public assistant
 Consider for example an applicant with a very helpful public assistant. The assistant knows all of the eligibility rules and application requirements for each program, and can tell the applicant which programs they qualify for given minimal information. The assistant can also fill and submit the completed applications for these programs on behalf of the applicant when given the minimum set of documents required, which the assistant knows to ask for. Such assistants exist as staff in Community Benefit Organizations (CBOs), which do an excellent job of abstracting away the burdens of this process; however, the role of the assistant in this scenario can also be fulfilled by a well-implemented set of technologies.
