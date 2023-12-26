@@ -19,7 +19,7 @@ This report explores the relationship between technology and administrative burd
 
 Part I of this report gives an overview of common burdens, assessing why they exist, who bears them, and why they are difficult to address. This is largely a review of existing literature, and provides motivation and grounding for the remainder of the report.
 
-Part II of this report proposes a framework for assessing technology's role in shifting burdens. We outline new and existing technical strategies for shifting burdens, with a focus on the capacity and tactics necessary for them to be effective in practice.
+Part II of this report proposes a framework for assessing technology's role in shifting burdens. We use this framework to assess existing technical strategies for shifting burdens, with a focus on the capacity and tactics necessary for them to be effective in practice.
 
 Part III concludes this report with an affirmative vision of technology's role in facilitating public benefits access. By pushing technical interventions to their most optimistic conclusions, we can better understand the limits of technology in addressing broader challenges in public benefits access, as well as the risks associated with reliance on specific technologies.
 
