@@ -1,4 +1,4 @@
-This repository contains work done by Rasmi Elasmar as a 2022-2023 Urban Tech Fellow at Cornell Tech.
+This repository contains work done by Rasmi Elasmar as a [2022-2023 Urban Tech Fellow](https://urban.tech.cornell.edu/people/rasmi-elasmar/) at Cornell Tech.
 ## Report: [Technology and Administrative Burden](<writing/Digital Public Infrastructure and Administrative Burden.md>)
 [This report](<writing/Digital Public Infrastructure and Administrative Burden.md>) assesses different ways technology can (or can't) improve access to public assistance programs, and provides a framework for agencies to assess and implement these technologies in their own operations.
 ## Prototype: Digital Public Assistant
